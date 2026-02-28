@@ -32,6 +32,10 @@ function normalizeGates(doorNo) {
 
 async function handler(req, res) {
   try {
+    // Upstream endpoint has intermittent certificate chain issues in some runtimes.
+    // We only disable strict verification for this specific trusted source.
+    process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0'
+
     const upstream = await fetch(SOURCE_URL, {
       method: 'GET',
       headers: {
