@@ -7,10 +7,11 @@ __pycache__/
 venv/
 env/
 
-data/
-logs/
+/data/
+/logs/
 *.db
 *.sqlite
 *.sqlite3
 
 .DS_Store
+.vercel

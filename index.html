@@ -97,7 +97,26 @@
       </div>
       <div class="card">
         <h3>What This Dashboard Shows</h3>
-        <p>Live status, color, estimated completion time, gates, and current ranking.</p>
+        <p>Hourly snapshot from your collector plus week/month/year analysis from your database.</p>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Analysis Period</h3>
+        <select id="period" class="btn" style="width: 100%; margin-top: 8px; background: #1d4ed8;">
+          <option value="week">Last 7 Days</option>
+          <option value="month">Last 30 Days</option>
+          <option value="year">Last 365 Days</option>
+        </select>
+      </div>
+      <div class="card">
+        <h3>Best Hours (Saudi Time)</h3>
+        <div id="best-hours"></div>
+      </div>
+      <div class="card">
+        <h3>Top Area By Period</h3>
+        <div id="top-area"></div>
       </div>
     </div>
 
@@ -116,7 +135,7 @@
     </table>
 
     <button class="btn" onclick="loadData()">Refresh Now</button>
-    <div class="footer">Auto-refresh every 60 seconds.</div>
+    <div class="footer">Data file updates hourly from your collector and auto-deploys on Vercel.</div>
   </div>
 
   <script>
@@ -140,22 +159,65 @@
       `;
     }
 
+    function pickBestNow(items, type) {
+      const filtered = items.filter(x => x.areaType === type);
+      if (!filtered.length) return null;
+      filtered.sort((a, b) => {
+        const sa = a.statusLabel === 'Light' ? 1 : a.statusLabel === 'Medium' ? 2 : a.statusLabel === 'Heavy' ? 3 : 4;
+        const sb = b.statusLabel === 'Light' ? 1 : b.statusLabel === 'Medium' ? 2 : b.statusLabel === 'Heavy' ? 3 : 4;
+        if (sa !== sb) return sa - sb;
+        const am = a.estimatedMin != null ? (a.estimatedMin + a.estimatedMax) / 2 : 9999;
+        const bm = b.estimatedMin != null ? (b.estimatedMin + b.estimatedMax) / 2 : 9999;
+        return am - bm;
+      });
+      return filtered[0];
+    }
+
+    function renderBestHours(bestHours) {
+      if (!bestHours || !bestHours.length) return '<p>No analysis data yet.</p>';
+      return bestHours.slice(0, 4).map((h) => (
+        `<div class="row"><span>${String(h.hour).padStart(2, '0')}:00</span><span>Status ${h.avgStatus}, ${h.avgMinutes} min</span></div>`
+      )).join('');
+    }
+
+    function renderTopArea(areaRank) {
+      if (!areaRank || !areaRank.length) return '<p>No analysis data yet.</p>';
+      const top = areaRank[0];
+      return `
+        <div class="row"><strong>${top.areaNameEn}</strong><span>${top.avgMinutes} min</span></div>
+        <div class="row"><span>Average Status</span><span>${top.avgStatus}</span></div>
+        <div class="row"><span>Availability</span><span>${top.availabilityPct}%</span></div>
+        <div class="row"><span>Samples</span><span>${top.samples}</span></div>
+      `;
+    }
+
     async function loadData() {
+      const period = document.getElementById('period').value;
       const [liveRes, analysisRes] = await Promise.all([
-        fetch('/api/live'),
-        fetch('/api/analysis')
+        fetch('/data/latest.json', { cache: 'no-store' }),
+        fetch(`/data/analysis-${period}.json`, { cache: 'no-store' })
       ]);
 
       const live = await liveRes.json();
       const analysis = await analysisRes.json();
 
-      document.getElementById('meta').textContent = `Last fetch: ${new Date(live.fetchedAt).toLocaleString()} | Areas: ${live.count}`;
-      document.getElementById('best-tawaf').innerHTML = renderBest(analysis.bestNow.tawaf);
-      document.getElementById('best-sai').innerHTML = renderBest(analysis.bestNow.sai);
+      document.getElementById('meta').textContent = `Last snapshot (Saudi): ${live.fetchedAtSaudi ?? '-'} | Run ID: ${live.runId ?? '-'}`;
+      document.getElementById('best-tawaf').innerHTML = renderBest(pickBestNow(live.items, 'tawaf'));
+      document.getElementById('best-sai').innerHTML = renderBest(pickBestNow(live.items, 'sai'));
+      document.getElementById('best-hours').innerHTML = renderBestHours(analysis.bestHours);
+      document.getElementById('top-area').innerHTML = renderTopArea(analysis.areaRank);
 
       const rows = document.getElementById('rows');
       rows.innerHTML = '';
-      for (const r of analysis.rankingNow) {
+      const rankingNow = [...live.items].sort((a, b) => {
+        const sa = a.statusLabel === 'Light' ? 1 : a.statusLabel === 'Medium' ? 2 : a.statusLabel === 'Heavy' ? 3 : 4;
+        const sb = b.statusLabel === 'Light' ? 1 : b.statusLabel === 'Medium' ? 2 : b.statusLabel === 'Heavy' ? 3 : 4;
+        if (sa !== sb) return sa - sb;
+        const am = a.estimatedMin != null ? (a.estimatedMin + a.estimatedMax) / 2 : 9999;
+        const bm = b.estimatedMin != null ? (b.estimatedMin + b.estimatedMax) / 2 : 9999;
+        return am - bm;
+      });
+      for (const r of rankingNow) {
         const tr = document.createElement('tr');
         const time = r.estimatedMin != null ? `${r.estimatedMin}–${r.estimatedMax} min` : 'Not Available';
         tr.innerHTML = `
@@ -171,6 +233,7 @@
     }
 
     loadData();
+    document.getElementById('period').addEventListener('change', loadData);
     setInterval(loadData, 60000);
   </script>
 </body>
