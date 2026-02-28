@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Haram Crowd Dashboard</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #111827;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --line: #1f2937;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      background: radial-gradient(circle at top right, #1d4ed8 0%, var(--bg) 35%);
+      color: var(--text);
+      padding: 24px;
+    }
+    .wrap { max-width: 1120px; margin: 0 auto; }
+    h1 { margin: 0 0 6px; font-size: 2rem; }
+    p { margin: 0; color: var(--muted); }
+    .grid {
+      margin-top: 18px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 12px;
+    }
+    .card {
+      background: rgba(17, 24, 39, 0.88);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 14px;
+    }
+    .row {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 8px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .row:last-child { border-bottom: 0; }
+    .tag {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 2px 8px;
+      color: #fff;
+      font-size: 12px;
+      white-space: nowrap;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 14px;
+      background: rgba(17, 24, 39, 0.88);
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+    }
+    th, td {
+      text-align: left;
+      border-bottom: 1px solid var(--line);
+      padding: 10px;
+      font-size: 14px;
+      vertical-align: top;
+    }
+    th { color: #93c5fd; font-weight: 600; }
+    .footer { margin-top: 12px; color: var(--muted); font-size: 13px; }
+    .btn {
+      margin-top: 14px;
+      background: #2563eb;
+      color: #fff;
+      border: 0;
+      border-radius: 10px;
+      padding: 10px 14px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Haram Crowd Dashboard</h1>
+    <p id="meta">Loading live data...</p>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Best Tawaf Right Now</h3>
+        <div id="best-tawaf"></div>
+      </div>
+      <div class="card">
+        <h3>Best Sa'i Right Now</h3>
+        <div id="best-sai"></div>
+      </div>
+      <div class="card">
+        <h3>What This Dashboard Shows</h3>
+        <p>Live status, color, estimated completion time, gates, and current ranking.</p>
+      </div>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Area</th>
+          <th>Type</th>
+          <th>Status</th>
+          <th>Color</th>
+          <th>Estimated Time</th>
+          <th>Gates</th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+
+    <button class="btn" onclick="loadData()">Refresh Now</button>
+    <div class="footer">Auto-refresh every 60 seconds.</div>
+  </div>
+
+  <script>
+    function colorTag(color) {
+      const bg = {
+        'Green': '#166534',
+        'Brown / Orange': '#9a3412',
+        'Red': '#991b1b',
+        'Dark Grey': '#374151'
+      }[color] || '#1f2937';
+      return `<span class="tag" style="background:${bg};border-color:${bg}">${color}</span>`;
+    }
+
+    function renderBest(item) {
+      if (!item) return '<p>No data</p>';
+      const time = item.estimatedMin != null ? `${item.estimatedMin}–${item.estimatedMax} min` : 'Not Available';
+      return `
+        <div class="row"><strong>${item.areaNameEn}</strong>${colorTag(item.color)}</div>
+        <div class="row"><span>Status</span><span>${item.statusLabel}</span></div>
+        <div class="row"><span>Estimated Time</span><span>${time}</span></div>
+      `;
+    }
+
+    async function loadData() {
+      const [liveRes, analysisRes] = await Promise.all([
+        fetch('/api/live'),
+        fetch('/api/analysis')
+      ]);
+
+      const live = await liveRes.json();
+      const analysis = await analysisRes.json();
+
+      document.getElementById('meta').textContent = `Last fetch: ${new Date(live.fetchedAt).toLocaleString()} | Areas: ${live.count}`;
+      document.getElementById('best-tawaf').innerHTML = renderBest(analysis.bestNow.tawaf);
+      document.getElementById('best-sai').innerHTML = renderBest(analysis.bestNow.sai);
+
+      const rows = document.getElementById('rows');
+      rows.innerHTML = '';
+      for (const r of analysis.rankingNow) {
+        const tr = document.createElement('tr');
+        const time = r.estimatedMin != null ? `${r.estimatedMin}–${r.estimatedMax} min` : 'Not Available';
+        tr.innerHTML = `
+          <td>${r.areaNameEn}</td>
+          <td>${r.areaType}</td>
+          <td>${r.statusLabel}</td>
+          <td>${colorTag(r.color)}</td>
+          <td>${time}</td>
+          <td>${r.gates ?? '-'}</td>
+        `;
+        rows.appendChild(tr);
+      }
+    }
+
+    loadData();
+    setInterval(loadData, 60000);
+  </script>
+</body>
+</html>
