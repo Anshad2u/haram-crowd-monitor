@@ -44,6 +44,12 @@
       "samples": 7
     },
     {
+      "hour": 6,
+      "avgStatus": 2.0,
+      "avgMinutes": 56.43,
+      "samples": 7
+    },
+    {
       "hour": 21,
       "avgStatus": 2.0,
       "avgMinutes": 56.43,
@@ -66,63 +72,57 @@
       "avgStatus": 2.0,
       "avgMinutes": 57.86,
       "samples": 7
-    },
-    {
-      "hour": 19,
-      "avgStatus": 2.0,
-      "avgMinutes": 57.86,
-      "samples": 7
     }
   ],
   "areaRank": [
     {
       "areaNameEn": "Second Floor Sa'i",
-      "avgStatus": 1.333,
-      "avgMinutes": 33.33,
+      "avgStatus": 1.313,
+      "avgMinutes": 33.13,
       "availabilityPct": 100.0,
-      "samples": 15
+      "samples": 16
     },
     {
       "areaNameEn": "Roof Tawaf",
-      "avgStatus": 1.4,
-      "avgMinutes": 63.0,
+      "avgStatus": 1.375,
+      "avgMinutes": 62.5,
       "availabilityPct": 100.0,
-      "samples": 15
+      "samples": 16
     },
     {
       "areaNameEn": "First Floor Tawaf",
-      "avgStatus": 1.6,
-      "avgMinutes": 67.0,
+      "avgStatus": 1.625,
+      "avgMinutes": 67.5,
       "availabilityPct": 100.0,
-      "samples": 15
+      "samples": 16
     },
     {
       "areaNameEn": "Ground Floor Tawaf",
-      "avgStatus": 1.6,
-      "avgMinutes": 67.0,
+      "avgStatus": 1.625,
+      "avgMinutes": 67.5,
       "availabilityPct": 100.0,
-      "samples": 15
+      "samples": 16
     },
     {
       "areaNameEn": "First Floor Sa'i",
-      "avgStatus": 1.733,
-      "avgMinutes": 37.33,
+      "avgStatus": 1.75,
+      "avgMinutes": 37.5,
       "availabilityPct": 100.0,
-      "samples": 15
+      "samples": 16
     },
     {
       "areaNameEn": "Ground Floor Sa'i",
-      "avgStatus": 2.0,
-      "avgMinutes": 50.0,
+      "avgStatus": 2.063,
+      "avgMinutes": 50.63,
       "availabilityPct": 100.0,
-      "samples": 15
+      "samples": 16
     },
     {
       "areaNameEn": "Mataf Courtyard (Around Kaaba)",
       "avgStatus": 3.0,
       "avgMinutes": 60.0,
       "availabilityPct": 100.0,
-      "samples": 15
+      "samples": 16
     }
   ]
 }
