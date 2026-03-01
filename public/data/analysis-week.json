@@ -44,6 +44,12 @@
       "samples": 7
     },
     {
+      "hour": 7,
+      "avgStatus": 1.857,
+      "avgMinutes": 55.0,
+      "samples": 7
+    },
+    {
       "hour": 6,
       "avgStatus": 2.0,
       "avgMinutes": 56.43,
@@ -66,63 +72,57 @@
       "avgStatus": 2.0,
       "avgMinutes": 57.86,
       "samples": 21
-    },
-    {
-      "hour": 17,
-      "avgStatus": 2.0,
-      "avgMinutes": 57.86,
-      "samples": 7
     }
   ],
   "areaRank": [
     {
       "areaNameEn": "Second Floor Sa'i",
-      "avgStatus": 1.313,
-      "avgMinutes": 33.13,
+      "avgStatus": 1.294,
+      "avgMinutes": 32.94,
       "availabilityPct": 100.0,
-      "samples": 16
+      "samples": 17
     },
     {
       "areaNameEn": "Roof Tawaf",
-      "avgStatus": 1.375,
-      "avgMinutes": 62.5,
+      "avgStatus": 1.353,
+      "avgMinutes": 62.06,
       "availabilityPct": 100.0,
-      "samples": 16
+      "samples": 17
     },
     {
       "areaNameEn": "First Floor Tawaf",
-      "avgStatus": 1.625,
-      "avgMinutes": 67.5,
+      "avgStatus": 1.647,
+      "avgMinutes": 67.94,
       "availabilityPct": 100.0,
-      "samples": 16
+      "samples": 17
     },
     {
       "areaNameEn": "Ground Floor Tawaf",
-      "avgStatus": 1.625,
-      "avgMinutes": 67.5,
+      "avgStatus": 1.647,
+      "avgMinutes": 67.94,
       "availabilityPct": 100.0,
-      "samples": 16
+      "samples": 17
     },
     {
       "areaNameEn": "First Floor Sa'i",
-      "avgStatus": 1.75,
-      "avgMinutes": 37.5,
+      "avgStatus": 1.765,
+      "avgMinutes": 37.65,
       "availabilityPct": 100.0,
-      "samples": 16
+      "samples": 17
     },
     {
       "areaNameEn": "Ground Floor Sa'i",
-      "avgStatus": 2.063,
-      "avgMinutes": 50.63,
+      "avgStatus": 2.059,
+      "avgMinutes": 50.59,
       "availabilityPct": 100.0,
-      "samples": 16
+      "samples": 17
     },
     {
       "areaNameEn": "Mataf Courtyard (Around Kaaba)",
       "avgStatus": 3.0,
       "avgMinutes": 60.0,
       "availabilityPct": 100.0,
-      "samples": 16
+      "samples": 17
     }
   ]
 }
