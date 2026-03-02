@@ -4,7 +4,7 @@
   "items": [
     {
       "areaType": "tawaf",
-      "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+      "areaNameEn": "Mataf Ground Floor (Around Kaaba)",
       "levelCode": "G",
       "statusLabel": "Medium",
       "color": "Brown / Orange",
@@ -14,8 +14,8 @@
     },
     {
       "areaType": "tawaf",
-      "areaNameEn": "Ground Floor Tawaf",
-      "levelCode": "G",
+      "areaNameEn": "First Floor Tawaf",
+      "levelCode": "1",
       "statusLabel": "Light",
       "color": "Green",
       "estimatedMin": 50,
@@ -24,8 +24,8 @@
     },
     {
       "areaType": "tawaf",
-      "areaNameEn": "First Floor Tawaf",
-      "levelCode": "1",
+      "areaNameEn": "Second Floor Tawaf",
+      "levelCode": "2",
       "statusLabel": "Medium",
       "color": "Brown / Orange",
       "estimatedMin": 70,
@@ -35,7 +35,7 @@
     {
       "areaType": "tawaf",
       "areaNameEn": "Roof Tawaf",
-      "levelCode": "2",
+      "levelCode": "3",
       "statusLabel": "Not Available",
       "color": "Dark Grey",
       "estimatedMin": null,

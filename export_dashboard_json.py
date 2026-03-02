@@ -29,6 +29,23 @@ def period_expr(period: str) -> str:
     }[period]
 
 
+def normalize_area_display(area_type: str, area_name_en: str, level_code: str | None) -> tuple[str, str | None]:
+    """Apply requested floor naming convention for Tawaf levels."""
+    if area_type != "tawaf":
+        return area_name_en, level_code
+
+    if area_name_en == "Ground Floor Tawaf":
+        return "First Floor Tawaf", "1"
+    if area_name_en == "First Floor Tawaf":
+        return "Second Floor Tawaf", "2"
+    if area_name_en == "Roof Tawaf":
+        return "Roof Tawaf", "3"
+    if area_name_en == "Mataf Courtyard (Around Kaaba)":
+        return "Mataf Ground Floor (Around Kaaba)", "G"
+
+    return area_name_en, level_code
+
+
 def export_latest(conn: sqlite3.Connection) -> dict:
     cur = conn.cursor()
     cur.execute("SELECT MAX(run_id) FROM crawl_runs")
@@ -51,19 +68,21 @@ def export_latest(conn: sqlite3.Connection) -> dict:
     )
     rows = cur.fetchall()
 
-    items = [
-        {
-            "areaType": row[0],
-            "areaNameEn": row[1],
-            "levelCode": row[2],
-            "statusLabel": row[3],
-            "color": row[4],
-            "estimatedMin": row[5],
-            "estimatedMax": row[6],
-            "gates": row[7],
-        }
-        for row in rows
-    ]
+    items = []
+    for row in rows:
+        area_name, level_code = normalize_area_display(row[0], row[1], row[2])
+        items.append(
+            {
+                "areaType": row[0],
+                "areaNameEn": area_name,
+                "levelCode": level_code,
+                "statusLabel": row[3],
+                "color": row[4],
+                "estimatedMin": row[5],
+                "estimatedMax": row[6],
+                "gates": row[7],
+            }
+        )
     return {"runId": run_id, "fetchedAtSaudi": fetched_at_saudi, "items": items}
 
 
@@ -107,16 +126,18 @@ def export_period_analysis(conn: sqlite3.Connection, period: str) -> dict:
         """,
         (expr,),
     )
-    area_rank = [
-        {
-            "areaNameEn": row[0],
-            "avgStatus": row[1],
-            "avgMinutes": row[2],
-            "availabilityPct": row[3],
-            "samples": row[4],
-        }
-        for row in cur.fetchall()
-    ]
+    area_rank = []
+    for row in cur.fetchall():
+        normalized_name, _ = normalize_area_display("tawaf" if "Tawaf" in row[0] or "Mataf" in row[0] else "sai", row[0], None)
+        area_rank.append(
+            {
+                "areaNameEn": normalized_name,
+                "avgStatus": row[1],
+                "avgMinutes": row[2],
+                "availabilityPct": row[3],
+                "samples": row[4],
+            }
+        )
 
     return {"period": period, "bestHours": best_hours, "areaRank": area_rank}
 
@@ -158,11 +179,12 @@ def export_history(conn: sqlite3.Connection) -> dict:
                 "fetchedAtSaudi": row[1],
                 "items": [],
             }
+        area_name, level_code = normalize_area_display(row[2], row[3], row[4])
         runs_map[run_id]["items"].append(
             {
                 "areaType": row[2],
-                "areaNameEn": row[3],
-                "levelCode": row[4],
+                "areaNameEn": area_name,
+                "levelCode": level_code,
                 "statusLabel": row[5],
                 "color": row[6],
                 "estimatedMin": row[7],

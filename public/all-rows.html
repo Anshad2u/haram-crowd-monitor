@@ -49,12 +49,21 @@
 
     <div class="actions">
       <a class="btn" href="/">Back To Dashboard</a>
-      <input id="search" placeholder="Search area/status/color/gates" />
+      <input id="search" placeholder="Global search" />
+      <select id="run-filter"><option value="all">All Run IDs</option></select>
+      <input id="time-filter" placeholder="Snapshot contains (e.g. 2026-03-02 13)" />
       <select id="type-filter">
         <option value="all">All Types</option>
         <option value="tawaf">Tawaf</option>
         <option value="sai">Sa'i</option>
       </select>
+      <select id="area-filter"><option value="all">All Areas</option></select>
+      <select id="level-filter"><option value="all">All Levels</option></select>
+      <select id="status-filter"><option value="all">All Status</option></select>
+      <select id="color-filter"><option value="all">All Colors</option></select>
+      <input id="gates-filter" placeholder="Gates contains" />
+      <input id="min-time" type="number" min="0" placeholder="Min est time" />
+      <input id="max-time" type="number" min="0" placeholder="Max est time" />
     </div>
 
     <div class="table-wrap">
@@ -104,15 +113,59 @@
       return rows;
     }
 
+    function fillSelect(id, values, labelPrefix = 'All') {
+      const sel = document.getElementById(id);
+      const current = sel.value;
+      sel.innerHTML = '';
+      const first = document.createElement('option');
+      first.value = 'all';
+      first.textContent = labelPrefix;
+      sel.appendChild(first);
+      values.forEach((v) => {
+        const o = document.createElement('option');
+        o.value = String(v);
+        o.textContent = String(v);
+        sel.appendChild(o);
+      });
+      if ([...sel.options].some((o) => o.value === current)) sel.value = current;
+    }
+
+    function initFilterOptions() {
+      fillSelect('run-filter', [...new Set(allRows.map((r) => r.runId))], 'All Run IDs');
+      fillSelect('area-filter', [...new Set(allRows.map((r) => r.areaNameEn))], 'All Areas');
+      fillSelect('level-filter', [...new Set(allRows.map((r) => r.levelCode ?? '-'))], 'All Levels');
+      fillSelect('status-filter', [...new Set(allRows.map((r) => r.statusLabel))], 'All Status');
+      fillSelect('color-filter', [...new Set(allRows.map((r) => r.color))], 'All Colors');
+    }
+
     function renderRows() {
       const q = document.getElementById('search').value.trim().toLowerCase();
+      const runFilter = document.getElementById('run-filter').value;
+      const timeFilter = document.getElementById('time-filter').value.trim().toLowerCase();
       const typeFilter = document.getElementById('type-filter').value;
+      const areaFilter = document.getElementById('area-filter').value;
+      const levelFilter = document.getElementById('level-filter').value;
+      const statusFilter = document.getElementById('status-filter').value;
+      const colorFilter = document.getElementById('color-filter').value;
+      const gatesFilter = document.getElementById('gates-filter').value.trim().toLowerCase();
+      const minTime = document.getElementById('min-time').value;
+      const maxTime = document.getElementById('max-time').value;
       const tbody = document.getElementById('rows');
 
       const filtered = allRows.filter((r) => {
+        if (runFilter !== 'all' && String(r.runId) !== runFilter) return false;
+        if (timeFilter && !String(r.fetchedAtSaudi).toLowerCase().includes(timeFilter)) return false;
         if (typeFilter !== 'all' && r.areaType !== typeFilter) return false;
+        if (areaFilter !== 'all' && r.areaNameEn !== areaFilter) return false;
+        if (levelFilter !== 'all' && String(r.levelCode ?? '-') !== levelFilter) return false;
+        if (statusFilter !== 'all' && r.statusLabel !== statusFilter) return false;
+        if (colorFilter !== 'all' && r.color !== colorFilter) return false;
+        if (gatesFilter && !String(r.gates ?? '').toLowerCase().includes(gatesFilter)) return false;
+        const estMid = r.estimatedMin != null && r.estimatedMax != null ? (r.estimatedMin + r.estimatedMax) / 2 : null;
+        if (minTime && (estMid == null || estMid < Number(minTime))) return false;
+        if (maxTime && (estMid == null || estMid > Number(maxTime))) return false;
         if (!q) return true;
-        const blob = `${r.areaType} ${r.areaNameEn} ${r.levelCode} ${r.statusLabel} ${r.color} ${r.gates ?? ''}`.toLowerCase();
+        const blob = `${r.runId} ${r.fetchedAtSaudi} ${r.areaType} ${r.areaNameEn} ${r.levelCode} ${r.statusLabel} ${r.color} ${r.gates ?? ''}`.toLowerCase();
         return blob.includes(q);
       });
 
@@ -145,11 +198,16 @@
       allRows = flattenRuns(history);
 
       document.getElementById('meta').textContent = `Runs: ${history.runCount ?? 0} | Total rows: ${history.observationCount ?? 0} | Showing newest first`;
+      initFilterOptions();
       renderRows();
     }
 
-    document.getElementById('search').addEventListener('input', renderRows);
-    document.getElementById('type-filter').addEventListener('change', renderRows);
+    ['search','run-filter','time-filter','type-filter','area-filter','level-filter','status-filter','color-filter','gates-filter','min-time','max-time']
+      .forEach((id) => {
+        const evt = id.includes('filter') || id === 'type-filter' || id === 'run-filter' || id === 'area-filter' || id === 'level-filter' || id === 'status-filter' || id === 'color-filter' ? 'change' : 'input';
+        document.getElementById(id).addEventListener(evt, renderRows);
+        if (evt !== 'input') document.getElementById(id).addEventListener('input', renderRows);
+      });
     load();
   </script>
 </body>
