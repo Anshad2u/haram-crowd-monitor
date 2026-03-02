@@ -121,6 +121,64 @@ def export_period_analysis(conn: sqlite3.Connection, period: str) -> dict:
     return {"period": period, "bestHours": best_hours, "areaRank": area_rank}
 
 
+def export_history(conn: sqlite3.Connection) -> dict:
+    cur = conn.cursor()
+
+    cur.execute("SELECT COUNT(*) FROM crawl_runs")
+    run_count = cur.fetchone()[0]
+
+    cur.execute("SELECT COUNT(*) FROM observations")
+    observation_count = cur.fetchone()[0]
+
+    cur.execute(
+        """
+        SELECT
+            r.run_id,
+            r.fetched_at_saudi,
+            o.area_type,
+            o.area_name_en,
+            o.level_code,
+            o.status_label_en,
+            o.color_en,
+            o.est_min_minutes,
+            o.est_max_minutes,
+            o.gates_csv
+        FROM crawl_runs r
+        JOIN observations o ON o.run_id = r.run_id
+        ORDER BY r.run_id DESC, o.location_id ASC
+        """
+    )
+
+    runs_map: dict[int, dict] = {}
+    for row in cur.fetchall():
+        run_id = row[0]
+        if run_id not in runs_map:
+            runs_map[run_id] = {
+                "runId": run_id,
+                "fetchedAtSaudi": row[1],
+                "items": [],
+            }
+        runs_map[run_id]["items"].append(
+            {
+                "areaType": row[2],
+                "areaNameEn": row[3],
+                "levelCode": row[4],
+                "statusLabel": row[5],
+                "color": row[6],
+                "estimatedMin": row[7],
+                "estimatedMax": row[8],
+                "gates": row[9],
+            }
+        )
+
+    runs = list(runs_map.values())
+    return {
+        "runCount": run_count,
+        "observationCount": observation_count,
+        "runs": runs,
+    }
+
+
 def main() -> int:
     args = parse_args()
     db = Path(args.db).expanduser().resolve()
@@ -135,6 +193,7 @@ def main() -> int:
         week = export_period_analysis(conn, "week")
         month = export_period_analysis(conn, "month")
         year = export_period_analysis(conn, "year")
+        history = export_history(conn)
     finally:
         conn.close()
 
@@ -142,6 +201,7 @@ def main() -> int:
     write_json(out / "analysis-week.json", week)
     write_json(out / "analysis-month.json", month)
     write_json(out / "analysis-year.json", year)
+    write_json(out / "history.json", history)
     print(f"Exported dashboard JSON into {out}")
     return 0
 

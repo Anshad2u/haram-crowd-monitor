@@ -1,0 +1,3502 @@
+{
+  "runCount": 46,
+  "observationCount": 322,
+  "runs": [
+    {
+      "runId": 46,
+      "fetchedAtSaudi": "2026-03-02 13:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 40,
+          "estimatedMax": 50,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Not Available",
+          "color": "Dark Grey",
+          "estimatedMin": null,
+          "estimatedMax": null,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 45,
+      "fetchedAtSaudi": "2026-03-02 12:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 40,
+          "estimatedMax": 50,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Not Available",
+          "color": "Dark Grey",
+          "estimatedMin": null,
+          "estimatedMax": null,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 47,
+          "estimatedMax": 57,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 44,
+      "fetchedAtSaudi": "2026-03-02 11:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Not Available",
+          "color": "Dark Grey",
+          "estimatedMin": null,
+          "estimatedMax": null,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 43,
+      "fetchedAtSaudi": "2026-03-02 10:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Not Available",
+          "color": "Dark Grey",
+          "estimatedMin": null,
+          "estimatedMax": null,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 42,
+      "fetchedAtSaudi": "2026-03-02 09:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 41,
+      "fetchedAtSaudi": "2026-03-02 08:05:02",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 40,
+      "fetchedAtSaudi": "2026-03-02 07:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 40,
+          "estimatedMax": 50,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 39,
+      "fetchedAtSaudi": "2026-03-02 06:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 40,
+          "estimatedMax": 50,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 38,
+      "fetchedAtSaudi": "2026-03-02 05:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 37,
+      "fetchedAtSaudi": "2026-03-02 04:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 40,
+          "estimatedMax": 50,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 47,
+          "estimatedMax": 57,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 36,
+      "fetchedAtSaudi": "2026-03-02 03:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 40,
+          "estimatedMax": 50,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 47,
+          "estimatedMax": 57,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 35,
+      "fetchedAtSaudi": "2026-03-02 02:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 34,
+      "fetchedAtSaudi": "2026-03-02 01:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 33,
+      "fetchedAtSaudi": "2026-03-02 00:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 32,
+      "fetchedAtSaudi": "2026-03-01 22:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 31,
+      "fetchedAtSaudi": "2026-03-01 21:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 30,
+      "fetchedAtSaudi": "2026-03-01 20:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 29,
+      "fetchedAtSaudi": "2026-03-01 19:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 28,
+      "fetchedAtSaudi": "2026-03-01 18:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 27,
+      "fetchedAtSaudi": "2026-03-01 17:05:02",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 26,
+      "fetchedAtSaudi": "2026-03-01 16:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 100,
+          "estimatedMax": 110,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 25,
+      "fetchedAtSaudi": "2026-03-01 15:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Not Available",
+          "color": "Dark Grey",
+          "estimatedMin": null,
+          "estimatedMax": null,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 24,
+      "fetchedAtSaudi": "2026-03-01 14:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 40,
+          "estimatedMax": 50,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Not Available",
+          "color": "Dark Grey",
+          "estimatedMin": null,
+          "estimatedMax": null,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 23,
+      "fetchedAtSaudi": "2026-03-01 13:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 40,
+          "estimatedMax": 50,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Not Available",
+          "color": "Dark Grey",
+          "estimatedMin": null,
+          "estimatedMax": null,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 22,
+      "fetchedAtSaudi": "2026-03-01 12:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 40,
+          "estimatedMax": 50,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Not Available",
+          "color": "Dark Grey",
+          "estimatedMin": null,
+          "estimatedMax": null,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 21,
+      "fetchedAtSaudi": "2026-03-01 11:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Not Available",
+          "color": "Dark Grey",
+          "estimatedMin": null,
+          "estimatedMax": null,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 20,
+      "fetchedAtSaudi": "2026-03-01 10:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 19,
+      "fetchedAtSaudi": "2026-03-01 09:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 18,
+      "fetchedAtSaudi": "2026-03-01 08:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 17,
+      "fetchedAtSaudi": "2026-03-01 07:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 16,
+      "fetchedAtSaudi": "2026-03-01 06:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 15,
+      "fetchedAtSaudi": "2026-03-01 05:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 14,
+      "fetchedAtSaudi": "2026-03-01 04:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 13,
+      "fetchedAtSaudi": "2026-03-01 03:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 12,
+      "fetchedAtSaudi": "2026-03-01 02:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 11,
+      "fetchedAtSaudi": "2026-03-01 01:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 10,
+      "fetchedAtSaudi": "2026-03-01 00:05:02",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 9,
+      "fetchedAtSaudi": "2026-02-28 23:05:02",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 8,
+      "fetchedAtSaudi": "2026-02-28 22:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 7,
+      "fetchedAtSaudi": "2026-02-28 21:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 6,
+      "fetchedAtSaudi": "2026-02-28 20:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 5,
+      "fetchedAtSaudi": "2026-02-28 19:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 4,
+      "fetchedAtSaudi": "2026-02-28 18:47:03",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 3,
+      "fetchedAtSaudi": "2026-02-28 18:46:48",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 2,
+      "fetchedAtSaudi": "2026-02-28 18:00:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "runId": 1,
+      "fetchedAtSaudi": "2026-02-28 17:25:57",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Courtyard (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Ground Floor Tawaf",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 25,
+          "estimatedMax": 35,
+          "gates": null
+        }
+      ]
+    }
+  ]
+}

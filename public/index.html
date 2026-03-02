@@ -5,13 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Haram Crowd Dashboard</title>
   <style>
-    :root {
-      --bg: #0f172a;
-      --card: #111827;
-      --text: #e5e7eb;
-      --muted: #9ca3af;
-      --line: #1f2937;
-    }
+    :root { --bg: #0f172a; --card: #111827; --text: #e5e7eb; --muted: #9ca3af; --line: #1f2937; }
     * { box-sizing: border-box; }
     body {
       margin: 0;
@@ -20,57 +14,18 @@
       color: var(--text);
       padding: 24px;
     }
-    .wrap { max-width: 1120px; margin: 0 auto; }
+    .wrap { max-width: 1180px; margin: 0 auto; }
     h1 { margin: 0 0 6px; font-size: 2rem; }
+    h3 { margin-top: 0; }
     p { margin: 0; color: var(--muted); }
-    .grid {
-      margin-top: 18px;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 12px;
-    }
-    .card {
-      background: rgba(17, 24, 39, 0.88);
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      padding: 14px;
-    }
-    .row {
-      display: flex;
-      justify-content: space-between;
-      gap: 8px;
-      padding: 8px 0;
-      border-bottom: 1px solid var(--line);
-    }
+    .grid { margin-top: 18px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+    .card { background: rgba(17, 24, 39, 0.9); border: 1px solid var(--line); border-radius: 14px; padding: 14px; }
+    .row { display: flex; justify-content: space-between; gap: 8px; padding: 8px 0; border-bottom: 1px solid var(--line); }
     .row:last-child { border-bottom: 0; }
-    .tag {
-      border: 1px solid var(--line);
-      border-radius: 999px;
-      padding: 2px 8px;
-      color: #fff;
-      font-size: 12px;
-      white-space: nowrap;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 14px;
-      background: rgba(17, 24, 39, 0.88);
-      border-radius: 14px;
-      overflow: hidden;
-      border: 1px solid var(--line);
-    }
-    th, td {
-      text-align: left;
-      border-bottom: 1px solid var(--line);
-      padding: 10px;
-      font-size: 14px;
-      vertical-align: top;
-    }
-    th { color: #93c5fd; font-weight: 600; }
-    .footer { margin-top: 12px; color: var(--muted); font-size: 13px; }
+    .tag { border: 1px solid var(--line); border-radius: 999px; padding: 2px 8px; color: #fff; font-size: 12px; white-space: nowrap; }
     .btn {
-      margin-top: 14px;
+      margin-top: 10px;
+      width: 100%;
       background: #2563eb;
       color: #fff;
       border: 0;
@@ -79,161 +34,201 @@
       cursor: pointer;
       font-weight: 600;
     }
+    .section-title { margin-top: 22px; font-size: 1.2rem; color: #bfdbfe; }
+    .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; }
+    table { width: 100%; border-collapse: collapse; min-width: 560px; background: rgba(17, 24, 39, 0.9); }
+    th, td { text-align: left; border-bottom: 1px solid var(--line); padding: 10px; font-size: 14px; vertical-align: top; }
+    th { color: #93c5fd; font-weight: 600; }
+    .footer { margin-top: 12px; color: var(--muted); font-size: 13px; }
+    @media (max-width: 700px) {
+      body { padding: 14px; }
+      .table-wrap { margin-top: 8px; }
+      table { min-width: 520px; }
+    }
   </style>
 </head>
 <body>
   <div class="wrap">
     <h1>Haram Crowd Dashboard</h1>
-    <p id="meta">Loading live data...</p>
+    <p id="meta">Loading data...</p>
 
     <div class="grid">
-      <div class="card">
-        <h3>Best Tawaf Right Now</h3>
-        <div id="best-tawaf"></div>
-      </div>
-      <div class="card">
-        <h3>Best Sa'i Right Now</h3>
-        <div id="best-sai"></div>
-      </div>
-      <div class="card">
-        <h3>What This Dashboard Shows</h3>
-        <p>Hourly snapshot from your collector plus week/month/year analysis from your database.</p>
-      </div>
+      <div class="card"><h3>Best Tawaf Right Now</h3><div id="best-tawaf"></div></div>
+      <div class="card"><h3>Best Sa'i Right Now</h3><div id="best-sai"></div></div>
+      <div class="card"><h3>Database Stats</h3><div id="db-stats"></div></div>
     </div>
 
     <div class="grid">
       <div class="card">
         <h3>Analysis Period</h3>
-        <select id="period" class="btn" style="width: 100%; margin-top: 8px; background: #1d4ed8;">
+        <select id="period" class="btn">
           <option value="week">Last 7 Days</option>
           <option value="month">Last 30 Days</option>
           <option value="year">Last 365 Days</option>
         </select>
       </div>
+      <div class="card"><h3>Best Hours (Saudi Time)</h3><div id="best-hours"></div></div>
+      <div class="card"><h3>Top Area By Period</h3><div id="top-area"></div></div>
+    </div>
+
+    <div class="grid">
       <div class="card">
-        <h3>Best Hours (Saudi Time)</h3>
-        <div id="best-hours"></div>
+        <h3>Historical Snapshot Menu</h3>
+        <select id="history-run" class="btn"></select>
       </div>
       <div class="card">
-        <h3>Top Area By Period</h3>
-        <div id="top-area"></div>
+        <h3>Selected Snapshot Details</h3>
+        <div id="history-meta"></div>
       </div>
     </div>
 
-    <table>
-      <thead>
-        <tr>
-          <th>Area</th>
-          <th>Type</th>
-          <th>Status</th>
-          <th>Color</th>
-          <th>Estimated Time</th>
-          <th>Gates</th>
-        </tr>
-      </thead>
-      <tbody id="rows"></tbody>
-    </table>
+    <h2 class="section-title">Current Snapshot (Separated)</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Tawaf Table</h3>
+        <div class="table-wrap"><table><thead><tr><th>Area</th><th>Status</th><th>Color</th><th>Time</th><th>Gates</th></tr></thead><tbody id="current-tawaf"></tbody></table></div>
+      </div>
+      <div class="card">
+        <h3>Sa'i Table</h3>
+        <div class="table-wrap"><table><thead><tr><th>Area</th><th>Status</th><th>Color</th><th>Time</th></tr></thead><tbody id="current-sai"></tbody></table></div>
+      </div>
+    </div>
+
+    <h2 class="section-title">Selected Historical Snapshot (Full DB)</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Tawaf History View</h3>
+        <div class="table-wrap"><table><thead><tr><th>Area</th><th>Status</th><th>Color</th><th>Time</th><th>Gates</th></tr></thead><tbody id="history-tawaf"></tbody></table></div>
+      </div>
+      <div class="card">
+        <h3>Sa'i History View</h3>
+        <div class="table-wrap"><table><thead><tr><th>Area</th><th>Status</th><th>Color</th><th>Time</th></tr></thead><tbody id="history-sai"></tbody></table></div>
+      </div>
+    </div>
 
     <button class="btn" onclick="loadData()">Refresh Now</button>
-    <div class="footer">Data file updates hourly from your collector and auto-deploys on Vercel.</div>
+    <div class="footer">Data updates hourly from your collector, including full snapshot history menu.</div>
   </div>
 
   <script>
+    let historyData = { runs: [] };
+
+    function statusScore(label) {
+      if (label === 'Light') return 1;
+      if (label === 'Medium') return 2;
+      if (label === 'Heavy') return 3;
+      return 4;
+    }
+
     function colorTag(color) {
-      const bg = {
-        'Green': '#166534',
-        'Brown / Orange': '#9a3412',
-        'Red': '#991b1b',
-        'Dark Grey': '#374151'
-      }[color] || '#1f2937';
+      const bg = { 'Green': '#166534', 'Brown / Orange': '#9a3412', 'Red': '#991b1b', 'Dark Grey': '#374151' }[color] || '#1f2937';
       return `<span class="tag" style="background:${bg};border-color:${bg}">${color}</span>`;
+    }
+
+    function splitByType(items) {
+      return {
+        tawaf: items.filter((x) => x.areaType === 'tawaf'),
+        sai: items.filter((x) => x.areaType === 'sai')
+      };
+    }
+
+    function sortByBest(items) {
+      return [...items].sort((a, b) => {
+        const sa = statusScore(a.statusLabel);
+        const sb = statusScore(b.statusLabel);
+        if (sa !== sb) return sa - sb;
+        const am = a.estimatedMin != null ? (a.estimatedMin + a.estimatedMax) / 2 : 9999;
+        const bm = b.estimatedMin != null ? (b.estimatedMin + b.estimatedMax) / 2 : 9999;
+        return am - bm;
+      });
+    }
+
+    function renderRows(rows, showGates) {
+      if (!rows.length) return '<tr><td colspan="5">No data</td></tr>';
+      return rows.map((r) => {
+        const time = r.estimatedMin != null ? `${r.estimatedMin}–${r.estimatedMax} min` : 'Not Available';
+        if (showGates) {
+          return `<tr><td>${r.areaNameEn}</td><td>${r.statusLabel}</td><td>${colorTag(r.color)}</td><td>${time}</td><td>${r.gates ?? '-'}</td></tr>`;
+        }
+        return `<tr><td>${r.areaNameEn}</td><td>${r.statusLabel}</td><td>${colorTag(r.color)}</td><td>${time}</td></tr>`;
+      }).join('');
+    }
+
+    function pickBestNow(items, areaType) {
+      const rows = sortByBest(items.filter((x) => x.areaType === areaType));
+      return rows.length ? rows[0] : null;
     }
 
     function renderBest(item) {
       if (!item) return '<p>No data</p>';
       const time = item.estimatedMin != null ? `${item.estimatedMin}–${item.estimatedMax} min` : 'Not Available';
-      return `
-        <div class="row"><strong>${item.areaNameEn}</strong>${colorTag(item.color)}</div>
-        <div class="row"><span>Status</span><span>${item.statusLabel}</span></div>
-        <div class="row"><span>Estimated Time</span><span>${time}</span></div>
-      `;
-    }
-
-    function pickBestNow(items, type) {
-      const filtered = items.filter(x => x.areaType === type);
-      if (!filtered.length) return null;
-      filtered.sort((a, b) => {
-        const sa = a.statusLabel === 'Light' ? 1 : a.statusLabel === 'Medium' ? 2 : a.statusLabel === 'Heavy' ? 3 : 4;
-        const sb = b.statusLabel === 'Light' ? 1 : b.statusLabel === 'Medium' ? 2 : b.statusLabel === 'Heavy' ? 3 : 4;
-        if (sa !== sb) return sa - sb;
-        const am = a.estimatedMin != null ? (a.estimatedMin + a.estimatedMax) / 2 : 9999;
-        const bm = b.estimatedMin != null ? (b.estimatedMin + b.estimatedMax) / 2 : 9999;
-        return am - bm;
-      });
-      return filtered[0];
+      return `<div class="row"><strong>${item.areaNameEn}</strong>${colorTag(item.color)}</div><div class="row"><span>Status</span><span>${item.statusLabel}</span></div><div class="row"><span>Estimated Time</span><span>${time}</span></div>`;
     }
 
     function renderBestHours(bestHours) {
-      if (!bestHours || !bestHours.length) return '<p>No analysis data yet.</p>';
-      return bestHours.slice(0, 4).map((h) => (
-        `<div class="row"><span>${String(h.hour).padStart(2, '0')}:00</span><span>Status ${h.avgStatus}, ${h.avgMinutes} min</span></div>`
-      )).join('');
+      if (!bestHours?.length) return '<p>No analysis data yet.</p>';
+      return bestHours.slice(0, 5).map((h) => `<div class="row"><span>${String(h.hour).padStart(2, '0')}:00</span><span>Status ${h.avgStatus}, ${h.avgMinutes} min</span></div>`).join('');
     }
 
     function renderTopArea(areaRank) {
-      if (!areaRank || !areaRank.length) return '<p>No analysis data yet.</p>';
+      if (!areaRank?.length) return '<p>No analysis data yet.</p>';
       const top = areaRank[0];
-      return `
-        <div class="row"><strong>${top.areaNameEn}</strong><span>${top.avgMinutes} min</span></div>
-        <div class="row"><span>Average Status</span><span>${top.avgStatus}</span></div>
-        <div class="row"><span>Availability</span><span>${top.availabilityPct}%</span></div>
-        <div class="row"><span>Samples</span><span>${top.samples}</span></div>
-      `;
+      return `<div class="row"><strong>${top.areaNameEn}</strong><span>${top.avgMinutes} min</span></div><div class="row"><span>Average Status</span><span>${top.avgStatus}</span></div><div class="row"><span>Availability</span><span>${top.availabilityPct}%</span></div><div class="row"><span>Samples</span><span>${top.samples}</span></div>`;
+    }
+
+    function populateHistoryMenu() {
+      const sel = document.getElementById('history-run');
+      sel.innerHTML = '';
+      historyData.runs.forEach((run) => {
+        const opt = document.createElement('option');
+        opt.value = String(run.runId);
+        opt.textContent = `Run #${run.runId} — ${run.fetchedAtSaudi}`;
+        sel.appendChild(opt);
+      });
+    }
+
+    function renderHistoryRun() {
+      const sel = document.getElementById('history-run');
+      const runId = Number(sel.value);
+      const run = historyData.runs.find((r) => r.runId === runId);
+      if (!run) return;
+
+      const split = splitByType(sortByBest(run.items));
+      document.getElementById('history-meta').innerHTML = `<div class="row"><span>Run ID</span><span>${run.runId}</span></div><div class="row"><span>Snapshot Time</span><span>${run.fetchedAtSaudi}</span></div><div class="row"><span>Rows</span><span>${run.items.length}</span></div>`;
+      document.getElementById('history-tawaf').innerHTML = renderRows(split.tawaf, true);
+      document.getElementById('history-sai').innerHTML = renderRows(split.sai, false);
     }
 
     async function loadData() {
       const period = document.getElementById('period').value;
-      const [liveRes, analysisRes] = await Promise.all([
+      const [liveRes, analysisRes, historyRes] = await Promise.all([
         fetch('/data/latest.json', { cache: 'no-store' }),
-        fetch(`/data/analysis-${period}.json`, { cache: 'no-store' })
+        fetch(`/data/analysis-${period}.json`, { cache: 'no-store' }),
+        fetch('/data/history.json', { cache: 'no-store' })
       ]);
 
       const live = await liveRes.json();
       const analysis = await analysisRes.json();
+      historyData = await historyRes.json();
 
-      document.getElementById('meta').textContent = `Last snapshot (Saudi): ${live.fetchedAtSaudi ?? '-'} | Run ID: ${live.runId ?? '-'}`;
+      document.getElementById('meta').textContent = `Last snapshot (Saudi): ${live.fetchedAtSaudi ?? '-'} | Latest run: ${live.runId ?? '-'}.`;
+      document.getElementById('db-stats').innerHTML = `<div class="row"><span>Total Runs</span><span>${historyData.runCount ?? 0}</span></div><div class="row"><span>Total Rows</span><span>${historyData.observationCount ?? 0}</span></div>`;
       document.getElementById('best-tawaf').innerHTML = renderBest(pickBestNow(live.items, 'tawaf'));
       document.getElementById('best-sai').innerHTML = renderBest(pickBestNow(live.items, 'sai'));
       document.getElementById('best-hours').innerHTML = renderBestHours(analysis.bestHours);
       document.getElementById('top-area').innerHTML = renderTopArea(analysis.areaRank);
 
-      const rows = document.getElementById('rows');
-      rows.innerHTML = '';
-      const rankingNow = [...live.items].sort((a, b) => {
-        const sa = a.statusLabel === 'Light' ? 1 : a.statusLabel === 'Medium' ? 2 : a.statusLabel === 'Heavy' ? 3 : 4;
-        const sb = b.statusLabel === 'Light' ? 1 : b.statusLabel === 'Medium' ? 2 : b.statusLabel === 'Heavy' ? 3 : 4;
-        if (sa !== sb) return sa - sb;
-        const am = a.estimatedMin != null ? (a.estimatedMin + a.estimatedMax) / 2 : 9999;
-        const bm = b.estimatedMin != null ? (b.estimatedMin + b.estimatedMax) / 2 : 9999;
-        return am - bm;
-      });
-      for (const r of rankingNow) {
-        const tr = document.createElement('tr');
-        const time = r.estimatedMin != null ? `${r.estimatedMin}–${r.estimatedMax} min` : 'Not Available';
-        tr.innerHTML = `
-          <td>${r.areaNameEn}</td>
-          <td>${r.areaType}</td>
-          <td>${r.statusLabel}</td>
-          <td>${colorTag(r.color)}</td>
-          <td>${time}</td>
-          <td>${r.gates ?? '-'}</td>
-        `;
-        rows.appendChild(tr);
-      }
+      const currentSplit = splitByType(sortByBest(live.items));
+      document.getElementById('current-tawaf').innerHTML = renderRows(currentSplit.tawaf, true);
+      document.getElementById('current-sai').innerHTML = renderRows(currentSplit.sai, false);
+
+      populateHistoryMenu();
+      renderHistoryRun();
     }
 
-    loadData();
     document.getElementById('period').addEventListener('change', loadData);
+    document.getElementById('history-run').addEventListener('change', renderHistoryRun);
+    loadData();
     setInterval(loadData, 60000);
   </script>
 </body>
