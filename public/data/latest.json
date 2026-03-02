@@ -1,15 +1,15 @@
 {
-  "runId": 35,
-  "fetchedAtSaudi": "2026-03-02 02:05:01",
+  "runId": 36,
+  "fetchedAtSaudi": "2026-03-02 03:05:01",
   "items": [
     {
       "areaType": "tawaf",
       "areaNameEn": "Mataf Courtyard (Around Kaaba)",
       "levelCode": "G",
-      "statusLabel": "Heavy",
-      "color": "Red",
-      "estimatedMin": 55,
-      "estimatedMax": 65,
+      "statusLabel": "Medium",
+      "color": "Brown / Orange",
+      "estimatedMin": 40,
+      "estimatedMax": 50,
       "gates": "1, 3, 5, 19, 40, 79"
     },
     {
@@ -66,10 +66,10 @@
       "areaType": "sai",
       "areaNameEn": "Second Floor Sa'i",
       "levelCode": "2",
-      "statusLabel": "Light",
-      "color": "Green",
-      "estimatedMin": 25,
-      "estimatedMax": 35,
+      "statusLabel": "Heavy",
+      "color": "Red",
+      "estimatedMin": 47,
+      "estimatedMax": 57,
       "gates": null
     }
   ]
