@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Haram Crowd Full Database Table</title>
+  <style>
+    :root { --bg:#0f172a; --card:#111827; --text:#e5e7eb; --muted:#9ca3af; --line:#1f2937; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      background: radial-gradient(circle at top right, #1d4ed8 0%, var(--bg) 35%);
+      color: var(--text);
+      padding: 20px;
+    }
+    .wrap { max-width: 1280px; margin: 0 auto; }
+    h1 { margin: 0 0 6px; }
+    p { margin: 0; color: var(--muted); }
+    .actions { margin-top: 12px; display: flex; gap: 10px; flex-wrap: wrap; }
+    .btn, select, input {
+      border: 1px solid var(--line);
+      background: #1e3a8a;
+      color: #fff;
+      border-radius: 10px;
+      padding: 10px 12px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    input { background: #0b1220; min-width: 260px; }
+    .table-wrap {
+      margin-top: 14px;
+      overflow-x: auto;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: rgba(17,24,39,.92);
+    }
+    table { width: 100%; border-collapse: collapse; min-width: 980px; }
+    th, td { border-bottom: 1px solid var(--line); padding: 9px; text-align: left; font-size: 13px; vertical-align: top; }
+    th { color: #93c5fd; position: sticky; top: 0; background: #0b1220; z-index: 1; }
+    .tag { border-radius: 999px; padding: 2px 8px; color: #fff; font-size: 12px; }
+    .muted { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Full Database Table</h1>
+    <p id="meta">Loading all rows...</p>
+
+    <div class="actions">
+      <a class="btn" href="/">Back To Dashboard</a>
+      <input id="search" placeholder="Search area/status/color/gates" />
+      <select id="type-filter">
+        <option value="all">All Types</option>
+        <option value="tawaf">Tawaf</option>
+        <option value="sai">Sa'i</option>
+      </select>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Run ID</th>
+            <th>Snapshot Time (Saudi)</th>
+            <th>Type</th>
+            <th>Area</th>
+            <th>Level</th>
+            <th>Status</th>
+            <th>Color</th>
+            <th>Estimated Time</th>
+            <th>Gates</th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script>
+    let allRows = [];
+
+    function colorTag(color) {
+      const bg = {
+        'Green': '#166534',
+        'Brown / Orange': '#9a3412',
+        'Red': '#991b1b',
+        'Dark Grey': '#374151'
+      }[color] || '#334155';
+      return `<span class="tag" style="background:${bg}">${color}</span>`;
+    }
+
+    function flattenRuns(history) {
+      const rows = [];
+      for (const run of history.runs || []) {
+        for (const item of run.items || []) {
+          rows.push({
+            runId: run.runId,
+            fetchedAtSaudi: run.fetchedAtSaudi,
+            ...item,
+          });
+        }
+      }
+      return rows;
+    }
+
+    function renderRows() {
+      const q = document.getElementById('search').value.trim().toLowerCase();
+      const typeFilter = document.getElementById('type-filter').value;
+      const tbody = document.getElementById('rows');
+
+      const filtered = allRows.filter((r) => {
+        if (typeFilter !== 'all' && r.areaType !== typeFilter) return false;
+        if (!q) return true;
+        const blob = `${r.areaType} ${r.areaNameEn} ${r.levelCode} ${r.statusLabel} ${r.color} ${r.gates ?? ''}`.toLowerCase();
+        return blob.includes(q);
+      });
+
+      if (!filtered.length) {
+        tbody.innerHTML = '<tr><td colspan="9" class="muted">No rows match your filter.</td></tr>';
+        return;
+      }
+
+      tbody.innerHTML = filtered.map((r) => {
+        const time = r.estimatedMin != null ? `${r.estimatedMin}–${r.estimatedMax} min` : 'Not Available';
+        return `
+          <tr>
+            <td>${r.runId}</td>
+            <td>${r.fetchedAtSaudi}</td>
+            <td>${r.areaType}</td>
+            <td>${r.areaNameEn}</td>
+            <td>${r.levelCode ?? '-'}</td>
+            <td>${r.statusLabel}</td>
+            <td>${colorTag(r.color)}</td>
+            <td>${time}</td>
+            <td>${r.gates ?? '-'}</td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    async function load() {
+      const res = await fetch('/data/history.json', { cache: 'no-store' });
+      const history = await res.json();
+      allRows = flattenRuns(history);
+
+      document.getElementById('meta').textContent = `Runs: ${history.runCount ?? 0} | Total rows: ${history.observationCount ?? 0} | Showing newest first`;
+      renderRows();
+    }
+
+    document.getElementById('search').addEventListener('input', renderRows);
+    document.getElementById('type-filter').addEventListener('change', renderRows);
+    load();
+  </script>
+</body>
+</html>
