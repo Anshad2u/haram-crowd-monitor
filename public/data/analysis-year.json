@@ -14,12 +14,6 @@
       "samples": 35
     },
     {
-      "hour": 2,
-      "avgStatus": 1.657,
-      "avgMinutes": 50.14,
-      "samples": 35
-    },
-    {
       "hour": 5,
       "avgStatus": 1.657,
       "avgMinutes": 50.14,
@@ -50,6 +44,12 @@
       "samples": 35
     },
     {
+      "hour": 2,
+      "avgStatus": 1.69,
+      "avgMinutes": 50.71,
+      "samples": 42
+    },
+    {
       "hour": 21,
       "avgStatus": 1.762,
       "avgMinutes": 53.1,
@@ -77,52 +77,52 @@
   "areaRank": [
     {
       "areaNameEn": "Second Floor Sa'i",
-      "avgStatus": 1.323,
-      "avgMinutes": 33.26,
+      "avgStatus": 1.321,
+      "avgMinutes": 33.24,
       "availabilityPct": 100.0,
-      "samples": 130
+      "samples": 131
     },
     {
       "areaNameEn": "First Floor Tawaf",
-      "avgStatus": 1.669,
-      "avgMinutes": 69.73,
+      "avgStatus": 1.672,
+      "avgMinutes": 69.77,
       "availabilityPct": 100.0,
-      "samples": 130
+      "samples": 131
     },
     {
       "areaNameEn": "Second Floor Tawaf",
-      "avgStatus": 1.754,
-      "avgMinutes": 71.23,
+      "avgStatus": 1.748,
+      "avgMinutes": 71.11,
       "availabilityPct": 100.0,
-      "samples": 130
+      "samples": 131
     },
     {
       "areaNameEn": "Roof Tawaf",
-      "avgStatus": 1.808,
-      "avgMinutes": 60.19,
-      "availabilityPct": 80.0,
-      "samples": 130
+      "avgStatus": 1.802,
+      "avgMinutes": 60.14,
+      "availabilityPct": 80.15,
+      "samples": 131
     },
     {
       "areaNameEn": "First Floor Sa'i",
-      "avgStatus": 1.946,
+      "avgStatus": 1.947,
       "avgMinutes": 39.48,
       "availabilityPct": 100.0,
-      "samples": 130
+      "samples": 131
     },
     {
       "areaNameEn": "Ground Floor Sa'i",
-      "avgStatus": 2.385,
-      "avgMinutes": 53.85,
+      "avgStatus": 2.389,
+      "avgMinutes": 53.89,
       "availabilityPct": 100.0,
-      "samples": 130
+      "samples": 131
     },
     {
       "areaNameEn": "Mataf Ground Floor (Around Kaaba)",
-      "avgStatus": 2.831,
-      "avgMinutes": 57.46,
+      "avgStatus": 2.832,
+      "avgMinutes": 57.48,
       "availabilityPct": 100.0,
-      "samples": 130
+      "samples": 131
     }
   ]
 }
