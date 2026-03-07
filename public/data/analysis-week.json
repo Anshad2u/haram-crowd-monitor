@@ -62,67 +62,67 @@
       "samples": 37
     },
     {
-      "hour": 13,
-      "avgStatus": 1.973,
-      "avgMinutes": 55.24,
-      "samples": 37
-    },
-    {
       "hour": 15,
       "avgStatus": 2.0,
       "avgMinutes": 55.81,
       "samples": 37
+    },
+    {
+      "hour": 13,
+      "avgStatus": 2.0,
+      "avgMinutes": 55.91,
+      "samples": 43
     }
   ],
   "areaRank": [
     {
       "areaNameEn": "Second Floor Sa'i",
-      "avgStatus": 1.406,
-      "avgMinutes": 34.13,
+      "avgStatus": 1.41,
+      "avgMinutes": 34.17,
       "availabilityPct": 100.0,
-      "samples": 165
+      "samples": 166
     },
     {
       "areaNameEn": "First Floor Tawaf",
-      "avgStatus": 1.758,
-      "avgMinutes": 72.88,
+      "avgStatus": 1.759,
+      "avgMinutes": 72.89,
       "availabilityPct": 100.0,
-      "samples": 165
+      "samples": 166
     },
     {
       "areaNameEn": "Second Floor Tawaf",
-      "avgStatus": 1.782,
-      "avgMinutes": 71.91,
+      "avgStatus": 1.789,
+      "avgMinutes": 72.11,
       "availabilityPct": 100.0,
-      "samples": 165
+      "samples": 166
     },
     {
       "areaNameEn": "Roof Tawaf",
-      "avgStatus": 1.788,
+      "avgStatus": 1.801,
       "avgMinutes": 61.86,
-      "availabilityPct": 83.03,
-      "samples": 165
+      "availabilityPct": 82.53,
+      "samples": 166
     },
     {
       "areaNameEn": "First Floor Sa'i",
-      "avgStatus": 1.952,
-      "avgMinutes": 39.58,
+      "avgStatus": 1.946,
+      "avgMinutes": 39.52,
       "availabilityPct": 100.0,
-      "samples": 165
+      "samples": 166
     },
     {
       "areaNameEn": "Ground Floor Sa'i",
-      "avgStatus": 2.406,
-      "avgMinutes": 54.06,
+      "avgStatus": 2.404,
+      "avgMinutes": 54.04,
       "availabilityPct": 100.0,
-      "samples": 165
+      "samples": 166
     },
     {
       "areaNameEn": "Mataf Ground Floor (Around Kaaba)",
-      "avgStatus": 2.848,
-      "avgMinutes": 57.73,
+      "avgStatus": 2.849,
+      "avgMinutes": 57.74,
       "availabilityPct": 100.0,
-      "samples": 165
+      "samples": 166
     }
   ]
 }

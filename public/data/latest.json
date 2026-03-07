@@ -1,6 +1,6 @@
 {
-  "runId": 165,
-  "fetchedAtSaudi": "2026-03-07 12:05:55",
+  "runId": 166,
+  "fetchedAtSaudi": "2026-03-07 13:05:02",
   "items": [
     {
       "areaType": "tawaf",
@@ -26,10 +26,10 @@
       "areaType": "tawaf",
       "areaNameEn": "Second Floor Tawaf",
       "levelCode": "2",
-      "statusLabel": "Medium",
-      "color": "Brown / Orange",
-      "estimatedMin": 70,
-      "estimatedMax": 80,
+      "statusLabel": "Heavy",
+      "color": "Red",
+      "estimatedMin": 100,
+      "estimatedMax": 110,
       "gates": "16, 66, 91, 92"
     },
     {
