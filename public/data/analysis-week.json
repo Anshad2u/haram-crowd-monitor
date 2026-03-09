@@ -2,12 +2,6 @@
   "period": "week",
   "bestHours": [
     {
-      "hour": 0,
-      "avgStatus": 1.653,
-      "avgMinutes": 50.1,
-      "samples": 49
-    },
-    {
       "hour": 23,
       "avgStatus": 1.673,
       "avgMinutes": 50.82,
@@ -17,6 +11,12 @@
       "hour": 1,
       "avgStatus": 1.694,
       "avgMinutes": 50.92,
+      "samples": 49
+    },
+    {
+      "hour": 0,
+      "avgStatus": 1.714,
+      "avgMinutes": 51.12,
       "samples": 49
     },
     {
@@ -84,8 +84,8 @@
     },
     {
       "areaNameEn": "First Floor Tawaf",
-      "avgStatus": 1.839,
-      "avgMinutes": 74.46,
+      "avgStatus": 1.845,
+      "avgMinutes": 74.58,
       "availabilityPct": 100.0,
       "samples": 168
     },
@@ -98,8 +98,8 @@
     },
     {
       "areaNameEn": "Roof Tawaf",
-      "avgStatus": 1.881,
-      "avgMinutes": 63.55,
+      "avgStatus": 1.887,
+      "avgMinutes": 63.7,
       "availabilityPct": 82.14,
       "samples": 168
     },
@@ -112,8 +112,8 @@
     },
     {
       "areaNameEn": "Ground Floor Sa'i",
-      "avgStatus": 2.452,
-      "avgMinutes": 54.52,
+      "avgStatus": 2.458,
+      "avgMinutes": 54.58,
       "availabilityPct": 100.0,
       "samples": 168
     },
