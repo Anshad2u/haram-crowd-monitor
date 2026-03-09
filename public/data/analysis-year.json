@@ -38,16 +38,16 @@
       "samples": 63
     },
     {
-      "hour": 22,
-      "avgStatus": 1.746,
-      "avgMinutes": 52.3,
-      "samples": 63
-    },
-    {
       "hour": 5,
       "avgStatus": 1.778,
       "avgMinutes": 52.46,
       "samples": 63
+    },
+    {
+      "hour": 22,
+      "avgStatus": 1.786,
+      "avgMinutes": 53.0,
+      "samples": 70
     },
     {
       "hour": 21,
@@ -77,52 +77,52 @@
   "areaRank": [
     {
       "areaNameEn": "Second Floor Sa'i",
-      "avgStatus": 1.414,
-      "avgMinutes": 34.22,
+      "avgStatus": 1.417,
+      "avgMinutes": 34.24,
       "availabilityPct": 100.0,
-      "samples": 222
+      "samples": 223
     },
     {
       "areaNameEn": "First Floor Tawaf",
-      "avgStatus": 1.784,
-      "avgMinutes": 73.04,
+      "avgStatus": 1.785,
+      "avgMinutes": 73.05,
       "availabilityPct": 100.0,
-      "samples": 222
+      "samples": 223
     },
     {
       "areaNameEn": "Second Floor Tawaf",
-      "avgStatus": 1.833,
-      "avgMinutes": 73.15,
+      "avgStatus": 1.834,
+      "avgMinutes": 73.16,
       "availabilityPct": 100.0,
-      "samples": 222
+      "samples": 223
     },
     {
       "areaNameEn": "Roof Tawaf",
-      "avgStatus": 1.869,
-      "avgMinutes": 62.85,
-      "availabilityPct": 81.53,
-      "samples": 222
+      "avgStatus": 1.87,
+      "avgMinutes": 62.91,
+      "availabilityPct": 81.61,
+      "samples": 223
     },
     {
       "areaNameEn": "First Floor Sa'i",
       "avgStatus": 1.955,
       "avgMinutes": 39.62,
       "availabilityPct": 100.0,
-      "samples": 222
+      "samples": 223
     },
     {
       "areaNameEn": "Ground Floor Sa'i",
-      "avgStatus": 2.428,
-      "avgMinutes": 54.28,
+      "avgStatus": 2.426,
+      "avgMinutes": 54.26,
       "availabilityPct": 100.0,
-      "samples": 222
+      "samples": 223
     },
     {
       "areaNameEn": "Mataf Ground Floor (Around Kaaba)",
       "avgStatus": 2.865,
-      "avgMinutes": 57.97,
+      "avgMinutes": 57.98,
       "availabilityPct": 100.0,
-      "samples": 222
+      "samples": 223
     }
   ]
 }
