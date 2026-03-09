@@ -2,15 +2,15 @@
   "period": "week",
   "bestHours": [
     {
-      "hour": 23,
-      "avgStatus": 1.633,
-      "avgMinutes": 50.0,
-      "samples": 49
-    },
-    {
       "hour": 0,
       "avgStatus": 1.653,
       "avgMinutes": 50.1,
+      "samples": 49
+    },
+    {
+      "hour": 23,
+      "avgStatus": 1.673,
+      "avgMinutes": 50.82,
       "samples": 49
     },
     {
@@ -84,8 +84,8 @@
     },
     {
       "areaNameEn": "First Floor Tawaf",
-      "avgStatus": 1.833,
-      "avgMinutes": 74.35,
+      "avgStatus": 1.839,
+      "avgMinutes": 74.46,
       "availabilityPct": 100.0,
       "samples": 168
     },
@@ -98,8 +98,8 @@
     },
     {
       "areaNameEn": "Roof Tawaf",
-      "avgStatus": 1.875,
-      "avgMinutes": 63.41,
+      "avgStatus": 1.881,
+      "avgMinutes": 63.55,
       "availabilityPct": 82.14,
       "samples": 168
     },
