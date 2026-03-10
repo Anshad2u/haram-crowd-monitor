@@ -1,6 +1,6 @@
 {
-  "runId": 241,
-  "fetchedAtSaudi": "2026-03-10 16:05:01",
+  "runId": 242,
+  "fetchedAtSaudi": "2026-03-10 17:05:01",
   "items": [
     {
       "areaType": "tawaf",
@@ -26,10 +26,10 @@
       "areaType": "tawaf",
       "areaNameEn": "Second Floor Tawaf",
       "levelCode": "2",
-      "statusLabel": "Heavy",
-      "color": "Red",
-      "estimatedMin": 100,
-      "estimatedMax": 110,
+      "statusLabel": "Medium",
+      "color": "Brown / Orange",
+      "estimatedMin": 70,
+      "estimatedMax": 80,
       "gates": "16, 66, 91, 92"
     },
     {
@@ -46,10 +46,10 @@
       "areaType": "sai",
       "areaNameEn": "Ground Floor Sa'i",
       "levelCode": "G",
-      "statusLabel": "Heavy",
-      "color": "Red",
-      "estimatedMin": 55,
-      "estimatedMax": 65,
+      "statusLabel": "Medium",
+      "color": "Brown / Orange",
+      "estimatedMin": 45,
+      "estimatedMax": 55,
       "gates": null
     },
     {
