@@ -20,12 +20,6 @@
       "samples": 49
     },
     {
-      "hour": 3,
-      "avgStatus": 1.735,
-      "avgMinutes": 51.33,
-      "samples": 49
-    },
-    {
       "hour": 4,
       "avgStatus": 1.755,
       "avgMinutes": 51.43,
@@ -33,6 +27,12 @@
     },
     {
       "hour": 2,
+      "avgStatus": 1.755,
+      "avgMinutes": 51.73,
+      "samples": 49
+    },
+    {
+      "hour": 3,
       "avgStatus": 1.755,
       "avgMinutes": 51.73,
       "samples": 49
@@ -84,8 +84,8 @@
     },
     {
       "areaNameEn": "First Floor Tawaf",
-      "avgStatus": 1.857,
-      "avgMinutes": 74.82,
+      "avgStatus": 1.863,
+      "avgMinutes": 74.94,
       "availabilityPct": 100.0,
       "samples": 168
     },
