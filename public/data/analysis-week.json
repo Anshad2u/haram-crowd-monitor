@@ -62,13 +62,13 @@
       "samples": 49
     },
     {
-      "hour": 15,
-      "avgStatus": 2.093,
-      "avgMinutes": 58.26,
-      "samples": 43
+      "hour": 8,
+      "avgStatus": 2.102,
+      "avgMinutes": 58.98,
+      "samples": 49
     },
     {
-      "hour": 8,
+      "hour": 9,
       "avgStatus": 2.102,
       "avgMinutes": 58.98,
       "samples": 49
@@ -98,8 +98,8 @@
     },
     {
       "areaNameEn": "Second Floor Tawaf",
-      "avgStatus": 1.887,
-      "avgMinutes": 74.52,
+      "avgStatus": 1.893,
+      "avgMinutes": 74.7,
       "availabilityPct": 100.0,
       "samples": 168
     },
@@ -112,8 +112,8 @@
     },
     {
       "areaNameEn": "Ground Floor Sa'i",
-      "avgStatus": 2.429,
-      "avgMinutes": 54.29,
+      "avgStatus": 2.435,
+      "avgMinutes": 54.35,
       "availabilityPct": 100.0,
       "samples": 168
     },
