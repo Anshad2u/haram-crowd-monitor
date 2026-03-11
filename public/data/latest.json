@@ -1,6 +1,6 @@
 {
-  "runId": 260,
-  "fetchedAtSaudi": "2026-03-11 11:05:02",
+  "runId": 261,
+  "fetchedAtSaudi": "2026-03-11 12:05:01",
   "items": [
     {
       "areaType": "tawaf",
@@ -66,10 +66,10 @@
       "areaType": "sai",
       "areaNameEn": "Second Floor Sa'i",
       "levelCode": "2",
-      "statusLabel": "Medium",
-      "color": "Brown / Orange",
-      "estimatedMin": 35,
-      "estimatedMax": 45,
+      "statusLabel": "Light",
+      "color": "Green",
+      "estimatedMin": 25,
+      "estimatedMax": 35,
       "gates": null
     }
   ]
