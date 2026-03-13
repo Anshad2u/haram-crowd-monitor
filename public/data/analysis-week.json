@@ -38,15 +38,15 @@
       "samples": 49
     },
     {
-      "hour": 22,
-      "avgStatus": 1.939,
-      "avgMinutes": 55.41,
-      "samples": 49
-    },
-    {
       "hour": 5,
       "avgStatus": 1.959,
       "avgMinutes": 55.45,
+      "samples": 49
+    },
+    {
+      "hour": 22,
+      "avgStatus": 1.959,
+      "avgMinutes": 55.82,
       "samples": 49
     },
     {
@@ -98,8 +98,8 @@
     },
     {
       "areaNameEn": "Roof Tawaf",
-      "avgStatus": 2.0,
-      "avgMinutes": 66.74,
+      "avgStatus": 2.006,
+      "avgMinutes": 66.88,
       "availabilityPct": 82.14,
       "samples": 168
     },
