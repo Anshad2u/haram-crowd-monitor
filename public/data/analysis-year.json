@@ -14,12 +14,6 @@
       "samples": 105
     },
     {
-      "hour": 23,
-      "avgStatus": 1.794,
-      "avgMinutes": 52.58,
-      "samples": 97
-    },
-    {
       "hour": 0,
       "avgStatus": 1.819,
       "avgMinutes": 53.1,
@@ -36,6 +30,12 @@
       "avgStatus": 1.829,
       "avgMinutes": 52.87,
       "samples": 105
+    },
+    {
+      "hour": 23,
+      "avgStatus": 1.837,
+      "avgMinutes": 53.24,
+      "samples": 104
     },
     {
       "hour": 22,
@@ -77,52 +77,52 @@
   "areaRank": [
     {
       "areaNameEn": "Second Floor Sa'i",
-      "avgStatus": 1.46,
-      "avgMinutes": 34.66,
+      "avgStatus": 1.465,
+      "avgMinutes": 34.71,
       "availabilityPct": 100.0,
-      "samples": 367
+      "samples": 368
     },
     {
       "areaNameEn": "First Floor Tawaf",
-      "avgStatus": 1.817,
+      "avgStatus": 1.818,
       "avgMinutes": 73.87,
       "availabilityPct": 100.0,
-      "samples": 367
+      "samples": 368
     },
     {
       "areaNameEn": "Roof Tawaf",
       "avgStatus": 1.94,
-      "avgMinutes": 65.36,
-      "availabilityPct": 82.29,
-      "samples": 367
+      "avgMinutes": 65.4,
+      "availabilityPct": 82.34,
+      "samples": 368
     },
     {
       "areaNameEn": "Second Floor Tawaf",
       "avgStatus": 1.967,
       "avgMinutes": 76.39,
       "availabilityPct": 100.0,
-      "samples": 367
+      "samples": 368
     },
     {
       "areaNameEn": "First Floor Sa'i",
       "avgStatus": 2.008,
       "avgMinutes": 40.21,
       "availabilityPct": 100.0,
-      "samples": 367
+      "samples": 368
     },
     {
       "areaNameEn": "Ground Floor Sa'i",
-      "avgStatus": 2.371,
-      "avgMinutes": 53.71,
+      "avgStatus": 2.372,
+      "avgMinutes": 53.72,
       "availabilityPct": 100.0,
-      "samples": 367
+      "samples": 368
     },
     {
       "areaNameEn": "Mataf Ground Floor (Around Kaaba)",
-      "avgStatus": 2.866,
+      "avgStatus": 2.867,
       "avgMinutes": 58.0,
       "availabilityPct": 100.0,
-      "samples": 367
+      "samples": 368
     }
   ]
 }
