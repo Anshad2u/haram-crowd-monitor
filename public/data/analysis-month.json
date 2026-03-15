@@ -26,12 +26,6 @@
       "samples": 105
     },
     {
-      "hour": 4,
-      "avgStatus": 1.816,
-      "avgMinutes": 52.69,
-      "samples": 98
-    },
-    {
       "hour": 0,
       "avgStatus": 1.819,
       "avgMinutes": 53.1,
@@ -41,6 +35,12 @@
       "hour": 2,
       "avgStatus": 1.819,
       "avgMinutes": 53.23,
+      "samples": 105
+    },
+    {
+      "hour": 4,
+      "avgStatus": 1.829,
+      "avgMinutes": 52.87,
       "samples": 105
     },
     {
@@ -77,52 +77,52 @@
   "areaRank": [
     {
       "areaNameEn": "Second Floor Sa'i",
-      "avgStatus": 1.466,
-      "avgMinutes": 34.72,
+      "avgStatus": 1.467,
+      "avgMinutes": 34.73,
       "availabilityPct": 100.0,
-      "samples": 348
+      "samples": 349
     },
     {
       "areaNameEn": "First Floor Tawaf",
-      "avgStatus": 1.799,
-      "avgMinutes": 73.35,
+      "avgStatus": 1.797,
+      "avgMinutes": 73.3,
       "availabilityPct": 100.0,
-      "samples": 348
+      "samples": 349
     },
     {
       "areaNameEn": "Roof Tawaf",
-      "avgStatus": 1.925,
-      "avgMinutes": 65.03,
-      "availabilityPct": 82.47,
-      "samples": 348
+      "avgStatus": 1.923,
+      "avgMinutes": 65.0,
+      "availabilityPct": 82.52,
+      "samples": 349
     },
     {
       "areaNameEn": "Second Floor Tawaf",
       "avgStatus": 1.943,
-      "avgMinutes": 75.78,
+      "avgMinutes": 75.77,
       "availabilityPct": 100.0,
-      "samples": 348
+      "samples": 349
     },
     {
       "areaNameEn": "First Floor Sa'i",
-      "avgStatus": 1.994,
-      "avgMinutes": 40.05,
+      "avgStatus": 1.997,
+      "avgMinutes": 40.08,
       "availabilityPct": 100.0,
-      "samples": 348
+      "samples": 349
     },
     {
       "areaNameEn": "Ground Floor Sa'i",
-      "avgStatus": 2.382,
-      "avgMinutes": 53.82,
+      "avgStatus": 2.381,
+      "avgMinutes": 53.81,
       "availabilityPct": 100.0,
-      "samples": 348
+      "samples": 349
     },
     {
       "areaNameEn": "Mataf Ground Floor (Around Kaaba)",
       "avgStatus": 2.874,
-      "avgMinutes": 58.1,
+      "avgMinutes": 58.11,
       "availabilityPct": 100.0,
-      "samples": 348
+      "samples": 349
     }
   ]
 }
