@@ -20,12 +20,6 @@
       "samples": 97
     },
     {
-      "hour": 22,
-      "avgStatus": 1.81,
-      "avgMinutes": 53.38,
-      "samples": 105
-    },
-    {
       "hour": 0,
       "avgStatus": 1.819,
       "avgMinutes": 53.1,
@@ -42,6 +36,12 @@
       "avgStatus": 1.829,
       "avgMinutes": 52.87,
       "samples": 105
+    },
+    {
+      "hour": 22,
+      "avgStatus": 1.857,
+      "avgMinutes": 54.21,
+      "samples": 112
     },
     {
       "hour": 5,
@@ -77,52 +77,52 @@
   "areaRank": [
     {
       "areaNameEn": "Second Floor Sa'i",
-      "avgStatus": 1.459,
-      "avgMinutes": 34.65,
+      "avgStatus": 1.46,
+      "avgMinutes": 34.66,
       "availabilityPct": 100.0,
-      "samples": 366
+      "samples": 367
     },
     {
       "areaNameEn": "First Floor Tawaf",
       "avgStatus": 1.817,
       "avgMinutes": 73.87,
       "availabilityPct": 100.0,
-      "samples": 366
+      "samples": 367
     },
     {
       "areaNameEn": "Roof Tawaf",
-      "avgStatus": 1.937,
-      "avgMinutes": 65.23,
-      "availabilityPct": 82.24,
-      "samples": 366
+      "avgStatus": 1.94,
+      "avgMinutes": 65.36,
+      "availabilityPct": 82.29,
+      "samples": 367
     },
     {
       "areaNameEn": "Second Floor Tawaf",
       "avgStatus": 1.967,
       "avgMinutes": 76.39,
       "availabilityPct": 100.0,
-      "samples": 366
+      "samples": 367
     },
     {
       "areaNameEn": "First Floor Sa'i",
-      "avgStatus": 2.005,
-      "avgMinutes": 40.17,
+      "avgStatus": 2.008,
+      "avgMinutes": 40.21,
       "availabilityPct": 100.0,
-      "samples": 366
+      "samples": 367
     },
     {
       "areaNameEn": "Ground Floor Sa'i",
-      "avgStatus": 2.369,
-      "avgMinutes": 53.69,
+      "avgStatus": 2.371,
+      "avgMinutes": 53.71,
       "availabilityPct": 100.0,
-      "samples": 366
+      "samples": 367
     },
     {
       "areaNameEn": "Mataf Ground Floor (Around Kaaba)",
       "avgStatus": 2.866,
-      "avgMinutes": 57.99,
+      "avgMinutes": 58.0,
       "availabilityPct": 100.0,
-      "samples": 366
+      "samples": 367
     }
   ]
 }
