@@ -91,9 +91,9 @@
     },
     {
       "areaNameEn": "Roof Tawaf",
-      "avgStatus": 2.095,
-      "avgMinutes": 69.68,
-      "availabilityPct": 82.25,
+      "avgStatus": 2.077,
+      "avgMinutes": 69.57,
+      "availabilityPct": 82.84,
       "samples": 169
     },
     {
@@ -112,8 +112,8 @@
     },
     {
       "areaNameEn": "Ground Floor Sa'i",
-      "avgStatus": 2.278,
-      "avgMinutes": 52.78,
+      "avgStatus": 2.272,
+      "avgMinutes": 52.72,
       "availabilityPct": 100.0,
       "samples": 169
     },
