@@ -38,6 +38,12 @@
       "samples": 49
     },
     {
+      "hour": 16,
+      "avgStatus": 1.98,
+      "avgMinutes": 58.57,
+      "samples": 49
+    },
+    {
       "hour": 12,
       "avgStatus": 2.0,
       "avgMinutes": 54.74,
@@ -48,12 +54,6 @@
       "avgStatus": 2.0,
       "avgMinutes": 56.21,
       "samples": 43
-    },
-    {
-      "hour": 16,
-      "avgStatus": 2.02,
-      "avgMinutes": 59.08,
-      "samples": 49
     },
     {
       "hour": 14,
@@ -112,15 +112,15 @@
     },
     {
       "areaNameEn": "Ground Floor Sa'i",
-      "avgStatus": 2.232,
-      "avgMinutes": 52.32,
+      "avgStatus": 2.226,
+      "avgMinutes": 52.26,
       "availabilityPct": 100.0,
       "samples": 168
     },
     {
       "areaNameEn": "Mataf Ground Floor (Around Kaaba)",
-      "avgStatus": 2.827,
-      "avgMinutes": 57.41,
+      "avgStatus": 2.821,
+      "avgMinutes": 57.32,
       "availabilityPct": 100.0,
       "samples": 168
     }
