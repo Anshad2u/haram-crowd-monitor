@@ -3,8 +3,8 @@
   "bestHours": [
     {
       "hour": 3,
-      "avgStatus": 1.878,
-      "avgMinutes": 54.16,
+      "avgStatus": 1.857,
+      "avgMinutes": 53.76,
       "samples": 49
     },
     {
@@ -84,8 +84,8 @@
     },
     {
       "areaNameEn": "First Floor Tawaf",
-      "avgStatus": 1.881,
-      "avgMinutes": 75.6,
+      "avgStatus": 1.875,
+      "avgMinutes": 75.48,
       "availabilityPct": 100.0,
       "samples": 168
     },
