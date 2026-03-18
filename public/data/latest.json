@@ -1,6 +1,6 @@
 {
-  "runId": 419,
-  "fetchedAtSaudi": "2026-03-18 02:05:01",
+  "runId": 420,
+  "fetchedAtSaudi": "2026-03-18 03:05:02",
   "items": [
     {
       "areaType": "tawaf",
@@ -36,10 +36,10 @@
       "areaType": "tawaf",
       "areaNameEn": "Roof Tawaf",
       "levelCode": "3",
-      "statusLabel": "Medium",
-      "color": "Brown / Orange",
-      "estimatedMin": 70,
-      "estimatedMax": 80,
+      "statusLabel": "Light",
+      "color": "Green",
+      "estimatedMin": 50,
+      "estimatedMax": 60,
       "gates": "92, 91, 2, 84, 65, 66"
     },
     {
