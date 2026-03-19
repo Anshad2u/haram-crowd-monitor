@@ -68,17 +68,17 @@
       "samples": 43
     },
     {
-      "hour": 7,
-      "avgStatus": 2.02,
-      "avgMinutes": 58.98,
-      "samples": 49
+      "hour": 15,
+      "avgStatus": 2.022,
+      "avgMinutes": 57.89,
+      "samples": 45
     }
   ],
   "areaRank": [
     {
       "areaNameEn": "Second Floor Sa'i",
-      "avgStatus": 1.518,
-      "avgMinutes": 35.25,
+      "avgStatus": 1.524,
+      "avgMinutes": 35.31,
       "availabilityPct": 100.0,
       "samples": 168
     },
