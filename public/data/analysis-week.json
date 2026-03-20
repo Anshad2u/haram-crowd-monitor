@@ -77,8 +77,8 @@
   "areaRank": [
     {
       "areaNameEn": "Second Floor Sa'i",
-      "avgStatus": 1.452,
-      "avgMinutes": 34.58,
+      "avgStatus": 1.446,
+      "avgMinutes": 34.52,
       "availabilityPct": 100.0,
       "samples": 166
     },
@@ -98,8 +98,8 @@
     },
     {
       "areaNameEn": "Roof Tawaf",
-      "avgStatus": 2.108,
-      "avgMinutes": 70.8,
+      "avgStatus": 2.096,
+      "avgMinutes": 70.43,
       "availabilityPct": 83.13,
       "samples": 166
     },
