@@ -77,8 +77,8 @@
   "areaRank": [
     {
       "areaNameEn": "Second Floor Sa'i",
-      "avgStatus": 1.512,
-      "avgMinutes": 35.18,
+      "avgStatus": 1.506,
+      "avgMinutes": 35.12,
       "availabilityPct": 100.0,
       "samples": 166
     },
@@ -105,8 +105,8 @@
     },
     {
       "areaNameEn": "Ground Floor Sa'i",
-      "avgStatus": 2.145,
-      "avgMinutes": 51.45,
+      "avgStatus": 2.139,
+      "avgMinutes": 51.39,
       "availabilityPct": 100.0,
       "samples": 166
     },
