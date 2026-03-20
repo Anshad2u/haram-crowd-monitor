@@ -56,16 +56,16 @@
       "samples": 133
     },
     {
-      "hour": 10,
-      "avgStatus": 2.0,
-      "avgMinutes": 57.31,
-      "samples": 132
-    },
-    {
       "hour": 13,
       "avgStatus": 2.009,
       "avgMinutes": 56.14,
       "samples": 117
+    },
+    {
+      "hour": 10,
+      "avgStatus": 2.014,
+      "avgMinutes": 57.88,
+      "samples": 139
     },
     {
       "hour": 14,
@@ -77,52 +77,52 @@
   "areaRank": [
     {
       "areaNameEn": "Second Floor Sa'i",
-      "avgStatus": 1.447,
-      "avgMinutes": 34.53,
+      "avgStatus": 1.446,
+      "avgMinutes": 34.52,
       "availabilityPct": 100.0,
-      "samples": 472
+      "samples": 473
     },
     {
       "areaNameEn": "First Floor Tawaf",
-      "avgStatus": 1.843,
-      "avgMinutes": 74.78,
+      "avgStatus": 1.846,
+      "avgMinutes": 74.87,
       "availabilityPct": 100.0,
-      "samples": 472
+      "samples": 473
     },
     {
       "areaNameEn": "Roof Tawaf",
       "avgStatus": 1.96,
-      "avgMinutes": 66.63,
-      "availabilityPct": 83.26,
-      "samples": 472
+      "avgMinutes": 66.65,
+      "availabilityPct": 83.3,
+      "samples": 473
     },
     {
       "areaNameEn": "First Floor Sa'i",
       "avgStatus": 1.985,
       "avgMinutes": 39.98,
       "availabilityPct": 100.0,
-      "samples": 472
+      "samples": 473
     },
     {
       "areaNameEn": "Second Floor Tawaf",
-      "avgStatus": 2.006,
-      "avgMinutes": 77.29,
+      "avgStatus": 2.008,
+      "avgMinutes": 77.35,
       "availabilityPct": 100.0,
-      "samples": 472
+      "samples": 473
     },
     {
       "areaNameEn": "Ground Floor Sa'i",
-      "avgStatus": 2.299,
-      "avgMinutes": 52.99,
+      "avgStatus": 2.298,
+      "avgMinutes": 52.98,
       "availabilityPct": 100.0,
-      "samples": 472
+      "samples": 473
     },
     {
       "areaNameEn": "Mataf Ground Floor (Around Kaaba)",
       "avgStatus": 2.852,
       "avgMinutes": 57.78,
       "availabilityPct": 100.0,
-      "samples": 472
+      "samples": 473
     }
   ]
 }
