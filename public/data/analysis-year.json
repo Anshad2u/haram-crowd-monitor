@@ -26,15 +26,15 @@
       "samples": 147
     },
     {
-      "hour": 2,
-      "avgStatus": 1.85,
-      "avgMinutes": 54.29,
-      "samples": 140
-    },
-    {
       "hour": 22,
       "avgStatus": 1.857,
       "avgMinutes": 54.47,
+      "samples": 147
+    },
+    {
+      "hour": 2,
+      "avgStatus": 1.857,
+      "avgMinutes": 54.53,
       "samples": 147
     },
     {
@@ -77,52 +77,52 @@
   "areaRank": [
     {
       "areaNameEn": "Second Floor Sa'i",
-      "avgStatus": 1.432,
-      "avgMinutes": 34.38,
+      "avgStatus": 1.431,
+      "avgMinutes": 34.37,
       "availabilityPct": 100.0,
-      "samples": 488
+      "samples": 489
     },
     {
       "areaNameEn": "First Floor Tawaf",
       "avgStatus": 1.834,
       "avgMinutes": 74.55,
       "availabilityPct": 100.0,
-      "samples": 488
+      "samples": 489
     },
     {
       "areaNameEn": "Roof Tawaf",
-      "avgStatus": 1.961,
-      "avgMinutes": 66.36,
-      "availabilityPct": 82.79,
-      "samples": 488
+      "avgStatus": 1.959,
+      "avgMinutes": 66.33,
+      "availabilityPct": 82.82,
+      "samples": 489
     },
     {
       "areaNameEn": "First Floor Sa'i",
-      "avgStatus": 1.977,
+      "avgStatus": 1.978,
       "avgMinutes": 39.9,
       "availabilityPct": 100.0,
-      "samples": 488
+      "samples": 489
     },
     {
       "areaNameEn": "Second Floor Tawaf",
-      "avgStatus": 2.012,
-      "avgMinutes": 77.48,
+      "avgStatus": 2.014,
+      "avgMinutes": 77.54,
       "availabilityPct": 100.0,
-      "samples": 488
+      "samples": 489
     },
     {
       "areaNameEn": "Ground Floor Sa'i",
-      "avgStatus": 2.289,
-      "avgMinutes": 52.89,
+      "avgStatus": 2.288,
+      "avgMinutes": 52.88,
       "availabilityPct": 100.0,
-      "samples": 488
+      "samples": 489
     },
     {
       "areaNameEn": "Mataf Ground Floor (Around Kaaba)",
       "avgStatus": 2.84,
-      "avgMinutes": 57.6,
+      "avgMinutes": 57.61,
       "availabilityPct": 100.0,
-      "samples": 488
+      "samples": 489
     }
   ]
 }
