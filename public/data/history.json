@@ -1,7 +1,83 @@
 {
-  "runCount": 506,
-  "observationCount": 3542,
+  "runCount": 507,
+  "observationCount": 3549,
   "runs": [
+    {
+      "runId": 507,
+      "fetchedAtSaudi": "2026-03-21 20:05:01",
+      "items": [
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Mataf Ground Floor (Around Kaaba)",
+          "levelCode": "G",
+          "statusLabel": "Heavy",
+          "color": "Red",
+          "estimatedMin": 55,
+          "estimatedMax": 65,
+          "gates": "1, 3, 5, 19, 40, 79"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "First Floor Tawaf",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "3, 4, 21, 15, 30, 33, 37, 94"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Second Floor Tawaf",
+          "levelCode": "2",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 70,
+          "estimatedMax": 80,
+          "gates": "16, 66, 91, 92"
+        },
+        {
+          "areaType": "tawaf",
+          "areaNameEn": "Roof Tawaf",
+          "levelCode": "3",
+          "statusLabel": "Light",
+          "color": "Green",
+          "estimatedMin": 50,
+          "estimatedMax": 60,
+          "gates": "92, 91, 2, 84, 65, 66"
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Ground Floor Sa'i",
+          "levelCode": "G",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 45,
+          "estimatedMax": 55,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "First Floor Sa'i",
+          "levelCode": "1",
+          "statusLabel": "Medium",
+          "color": "Brown / Orange",
+          "estimatedMin": 35,
+          "estimatedMax": 45,
+          "gates": null
+        },
+        {
+          "areaType": "sai",
+          "areaNameEn": "Second Floor Sa'i",
+          "levelCode": "2",
+          "statusLabel": "Not Available",
+          "color": "Dark Grey",
+          "estimatedMin": null,
+          "estimatedMax": null,
+          "gates": null
+        }
+      ]
+    },
     {
       "runId": 506,
       "fetchedAtSaudi": "2026-03-21 19:05:01",
