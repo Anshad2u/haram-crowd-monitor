@@ -32,12 +32,6 @@
       "samples": 49
     },
     {
-      "hour": 8,
-      "avgStatus": 1.939,
-      "avgMinutes": 57.35,
-      "samples": 49
-    },
-    {
       "hour": 9,
       "avgStatus": 1.939,
       "avgMinutes": 57.35,
@@ -72,6 +66,12 @@
       "avgStatus": 1.955,
       "avgMinutes": 56.02,
       "samples": 44
+    },
+    {
+      "hour": 22,
+      "avgStatus": 1.959,
+      "avgMinutes": 56.88,
+      "samples": 49
     }
   ],
   "areaRank": [
@@ -112,8 +112,8 @@
     },
     {
       "areaNameEn": "Second Floor Tawaf",
-      "avgStatus": 2.241,
-      "avgMinutes": 83.25,
+      "avgStatus": 2.247,
+      "avgMinutes": 83.43,
       "availabilityPct": 100.0,
       "samples": 166
     },
