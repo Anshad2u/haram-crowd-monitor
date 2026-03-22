@@ -1,6 +1,6 @@
 {
-  "runId": 521,
-  "fetchedAtSaudi": "2026-03-22 10:05:01",
+  "runId": 522,
+  "fetchedAtSaudi": "2026-03-22 11:05:02",
   "items": [
     {
       "areaType": "tawaf",
@@ -16,10 +16,10 @@
       "areaType": "tawaf",
       "areaNameEn": "First Floor Tawaf",
       "levelCode": "1",
-      "statusLabel": "Medium",
-      "color": "Brown / Orange",
-      "estimatedMin": 70,
-      "estimatedMax": 80,
+      "statusLabel": "Light",
+      "color": "Green",
+      "estimatedMin": 50,
+      "estimatedMax": 60,
       "gates": "3, 4, 21, 15, 30, 33, 37, 94"
     },
     {
