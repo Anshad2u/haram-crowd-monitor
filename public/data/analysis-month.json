@@ -20,15 +20,15 @@
       "samples": 138
     },
     {
+      "hour": 22,
+      "avgStatus": 1.855,
+      "avgMinutes": 54.64,
+      "samples": 159
+    },
+    {
       "hour": 0,
       "avgStatus": 1.856,
       "avgMinutes": 54.54,
-      "samples": 153
-    },
-    {
-      "hour": 22,
-      "avgStatus": 1.869,
-      "avgMinutes": 54.78,
       "samples": 153
     },
     {
@@ -77,52 +77,52 @@
   "areaRank": [
     {
       "areaNameEn": "Second Floor Sa'i",
-      "avgStatus": 1.594,
+      "avgStatus": 1.598,
       "avgMinutes": 34.3,
-      "availabilityPct": 93.42,
-      "samples": 532
+      "availabilityPct": 93.25,
+      "samples": 533
     },
     {
       "areaNameEn": "First Floor Tawaf",
-      "avgStatus": 1.821,
-      "avgMinutes": 74.06,
+      "avgStatus": 1.82,
+      "avgMinutes": 74.02,
       "availabilityPct": 100.0,
-      "samples": 532
+      "samples": 533
     },
     {
       "areaNameEn": "First Floor Sa'i",
-      "avgStatus": 1.959,
-      "avgMinutes": 39.7,
+      "avgStatus": 1.957,
+      "avgMinutes": 39.68,
       "availabilityPct": 100.0,
-      "samples": 532
+      "samples": 533
     },
     {
       "areaNameEn": "Roof Tawaf",
-      "avgStatus": 2.009,
-      "avgMinutes": 66.21,
-      "availabilityPct": 80.64,
-      "samples": 532
+      "avgStatus": 2.008,
+      "avgMinutes": 66.19,
+      "availabilityPct": 80.68,
+      "samples": 533
     },
     {
       "areaNameEn": "Second Floor Tawaf",
-      "avgStatus": 2.019,
-      "avgMinutes": 77.56,
+      "avgStatus": 2.017,
+      "avgMinutes": 77.51,
       "availabilityPct": 100.0,
-      "samples": 532
+      "samples": 533
     },
     {
       "areaNameEn": "Ground Floor Sa'i",
       "avgStatus": 2.265,
       "avgMinutes": 52.65,
       "availabilityPct": 100.0,
-      "samples": 532
+      "samples": 533
     },
     {
       "areaNameEn": "Mataf Ground Floor (Around Kaaba)",
       "avgStatus": 2.818,
       "avgMinutes": 57.27,
       "availabilityPct": 100.0,
-      "samples": 532
+      "samples": 533
     }
   ]
 }
