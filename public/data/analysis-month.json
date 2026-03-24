@@ -14,6 +14,12 @@
       "samples": 156
     },
     {
+      "hour": 0,
+      "avgStatus": 1.819,
+      "avgMinutes": 54.09,
+      "samples": 171
+    },
+    {
       "hour": 1,
       "avgStatus": 1.824,
       "avgMinutes": 54.45,
@@ -24,12 +30,6 @@
       "avgStatus": 1.83,
       "avgMinutes": 54.4,
       "samples": 171
-    },
-    {
-      "hour": 0,
-      "avgStatus": 1.836,
-      "avgMinutes": 54.3,
-      "samples": 165
     },
     {
       "hour": 2,
@@ -77,52 +77,52 @@
   "areaRank": [
     {
       "areaNameEn": "Second Floor Sa'i",
-      "avgStatus": 1.739,
+      "avgStatus": 1.743,
       "avgMinutes": 34.3,
-      "availabilityPct": 87.81,
-      "samples": 566
+      "availabilityPct": 87.65,
+      "samples": 567
     },
     {
       "areaNameEn": "First Floor Tawaf",
-      "avgStatus": 1.779,
-      "avgMinutes": 73.06,
+      "avgStatus": 1.778,
+      "avgMinutes": 73.02,
       "availabilityPct": 100.0,
-      "samples": 566
+      "samples": 567
     },
     {
       "areaNameEn": "First Floor Sa'i",
-      "avgStatus": 1.903,
-      "avgMinutes": 39.13,
+      "avgStatus": 1.901,
+      "avgMinutes": 39.12,
       "availabilityPct": 100.0,
-      "samples": 566
+      "samples": 567
     },
     {
       "areaNameEn": "Second Floor Tawaf",
-      "avgStatus": 1.982,
-      "avgMinutes": 76.7,
+      "avgStatus": 1.981,
+      "avgMinutes": 76.66,
       "availabilityPct": 100.0,
-      "samples": 566
+      "samples": 567
     },
     {
       "areaNameEn": "Roof Tawaf",
-      "avgStatus": 1.998,
-      "avgMinutes": 65.64,
-      "availabilityPct": 80.21,
-      "samples": 566
+      "avgStatus": 1.996,
+      "avgMinutes": 65.62,
+      "availabilityPct": 80.25,
+      "samples": 567
     },
     {
       "areaNameEn": "Ground Floor Sa'i",
-      "avgStatus": 2.253,
-      "avgMinutes": 52.53,
+      "avgStatus": 2.252,
+      "avgMinutes": 52.52,
       "availabilityPct": 100.0,
-      "samples": 566
+      "samples": 567
     },
     {
       "areaNameEn": "Mataf Ground Floor (Around Kaaba)",
-      "avgStatus": 2.792,
-      "avgMinutes": 56.87,
+      "avgStatus": 2.79,
+      "avgMinutes": 56.85,
       "availabilityPct": 100.0,
-      "samples": 566
+      "samples": 567
     }
   ]
 }
