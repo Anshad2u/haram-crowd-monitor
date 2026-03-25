@@ -1,15 +1,15 @@
 {
-  "runId": 587,
-  "fetchedAtSaudi": "2026-03-25 20:05:01",
+  "runId": 588,
+  "fetchedAtSaudi": "2026-03-25 21:05:02",
   "items": [
     {
       "areaType": "tawaf",
       "areaNameEn": "Mataf Ground Floor (Around Kaaba)",
       "levelCode": "G",
-      "statusLabel": "Medium",
-      "color": "Brown / Orange",
-      "estimatedMin": 40,
-      "estimatedMax": 50,
+      "statusLabel": "Heavy",
+      "color": "Red",
+      "estimatedMin": 55,
+      "estimatedMax": 65,
       "gates": "1, 3, 5, 19, 40, 79"
     },
     {
