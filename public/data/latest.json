@@ -1,6 +1,6 @@
 {
-  "runId": 583,
-  "fetchedAtSaudi": "2026-03-25 16:05:01",
+  "runId": 584,
+  "fetchedAtSaudi": "2026-03-25 17:05:01",
   "items": [
     {
       "areaType": "tawaf",
@@ -46,10 +46,10 @@
       "areaType": "sai",
       "areaNameEn": "Ground Floor Sa'i",
       "levelCode": "G",
-      "statusLabel": "Medium",
-      "color": "Brown / Orange",
-      "estimatedMin": 45,
-      "estimatedMax": 55,
+      "statusLabel": "Light",
+      "color": "Green",
+      "estimatedMin": 35,
+      "estimatedMax": 45,
       "gates": null
     },
     {
