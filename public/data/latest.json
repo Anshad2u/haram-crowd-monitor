@@ -1,15 +1,15 @@
 {
-  "runId": 600,
-  "fetchedAtSaudi": "2026-03-26 09:05:01",
+  "runId": 601,
+  "fetchedAtSaudi": "2026-03-26 10:05:01",
   "items": [
     {
       "areaType": "tawaf",
       "areaNameEn": "Mataf Ground Floor (Around Kaaba)",
       "levelCode": "G",
-      "statusLabel": "Light",
-      "color": "Green",
-      "estimatedMin": 30,
-      "estimatedMax": 40,
+      "statusLabel": "Medium",
+      "color": "Brown / Orange",
+      "estimatedMin": 40,
+      "estimatedMax": 50,
       "gates": "1, 3, 5, 19, 40, 79"
     },
     {
@@ -26,20 +26,20 @@
       "areaType": "tawaf",
       "areaNameEn": "Second Floor Tawaf",
       "levelCode": "2",
-      "statusLabel": "Medium",
-      "color": "Brown / Orange",
-      "estimatedMin": 70,
-      "estimatedMax": 80,
+      "statusLabel": "Light",
+      "color": "Green",
+      "estimatedMin": 50,
+      "estimatedMax": 60,
       "gates": "16, 66, 91, 92"
     },
     {
       "areaType": "tawaf",
       "areaNameEn": "Roof Tawaf",
       "levelCode": "3",
-      "statusLabel": "Medium",
-      "color": "Brown / Orange",
-      "estimatedMin": 70,
-      "estimatedMax": 80,
+      "statusLabel": "Not Available",
+      "color": "Dark Grey",
+      "estimatedMin": null,
+      "estimatedMax": null,
       "gates": "92, 91, 2, 84, 65, 66"
     },
     {
