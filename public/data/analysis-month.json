@@ -77,52 +77,52 @@
   "areaRank": [
     {
       "areaNameEn": "First Floor Tawaf",
-      "avgStatus": 1.741,
-      "avgMinutes": 72.13,
+      "avgStatus": 1.742,
+      "avgMinutes": 72.14,
       "availabilityPct": 100.0,
-      "samples": 607
+      "samples": 608
     },
     {
       "areaNameEn": "First Floor Sa'i",
-      "avgStatus": 1.847,
-      "avgMinutes": 38.57,
+      "avgStatus": 1.845,
+      "avgMinutes": 38.55,
       "availabilityPct": 100.0,
-      "samples": 607
+      "samples": 608
     },
     {
       "areaNameEn": "Second Floor Sa'i",
-      "avgStatus": 1.891,
+      "avgStatus": 1.895,
       "avgMinutes": 34.3,
-      "availabilityPct": 81.88,
-      "samples": 607
+      "availabilityPct": 81.74,
+      "samples": 608
     },
     {
       "areaNameEn": "Second Floor Tawaf",
       "avgStatus": 1.951,
       "avgMinutes": 75.92,
       "availabilityPct": 100.0,
-      "samples": 607
+      "samples": 608
     },
     {
       "areaNameEn": "Roof Tawaf",
-      "avgStatus": 1.998,
+      "avgStatus": 2.002,
       "avgMinutes": 65.21,
-      "availabilityPct": 79.57,
-      "samples": 607
+      "availabilityPct": 79.44,
+      "samples": 608
     },
     {
       "areaNameEn": "Ground Floor Sa'i",
       "avgStatus": 2.234,
       "avgMinutes": 52.34,
       "availabilityPct": 100.0,
-      "samples": 607
+      "samples": 608
     },
     {
       "areaNameEn": "Mataf Ground Floor (Around Kaaba)",
-      "avgStatus": 2.741,
-      "avgMinutes": 56.14,
+      "avgStatus": 2.74,
+      "avgMinutes": 56.13,
       "availabilityPct": 100.0,
-      "samples": 607
+      "samples": 608
     }
   ]
 }
