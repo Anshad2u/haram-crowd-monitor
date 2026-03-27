@@ -84,8 +84,8 @@
     },
     {
       "areaNameEn": "First Floor Tawaf",
-      "avgStatus": 1.375,
-      "avgMinutes": 62.83,
+      "avgStatus": 1.388,
+      "avgMinutes": 63.26,
       "availabilityPct": 100.0,
       "samples": 152
     },
@@ -105,9 +105,9 @@
     },
     {
       "areaNameEn": "Roof Tawaf",
-      "avgStatus": 2.099,
-      "avgMinutes": 58.33,
-      "availabilityPct": 67.11,
+      "avgStatus": 2.118,
+      "avgMinutes": 58.37,
+      "availabilityPct": 66.45,
       "samples": 152
     },
     {
