@@ -32,6 +32,12 @@
       "samples": 37
     },
     {
+      "hour": 4,
+      "avgStatus": 1.595,
+      "avgMinutes": 52.7,
+      "samples": 37
+    },
+    {
       "hour": 15,
       "avgStatus": 1.613,
       "avgMinutes": 50.32,
@@ -56,73 +62,67 @@
       "samples": 37
     },
     {
+      "hour": 5,
+      "avgStatus": 1.649,
+      "avgMinutes": 53.65,
+      "samples": 37
+    },
+    {
       "hour": 22,
       "avgStatus": 1.651,
       "avgMinutes": 53.6,
       "samples": 43
-    },
-    {
-      "hour": 12,
-      "avgStatus": 1.656,
-      "avgMinutes": 51.41,
-      "samples": 32
-    },
-    {
-      "hour": 10,
-      "avgStatus": 1.676,
-      "avgMinutes": 53.24,
-      "samples": 34
     }
   ],
   "areaRank": [
     {
       "areaNameEn": "First Floor Sa'i",
-      "avgStatus": 1.359,
-      "avgMinutes": 33.59,
+      "avgStatus": 1.349,
+      "avgMinutes": 33.49,
       "availabilityPct": 100.0,
-      "samples": 153
+      "samples": 152
     },
     {
       "areaNameEn": "First Floor Tawaf",
-      "avgStatus": 1.438,
-      "avgMinutes": 64.9,
+      "avgStatus": 1.414,
+      "avgMinutes": 64.11,
       "availabilityPct": 100.0,
-      "samples": 153
+      "samples": 152
     },
     {
       "areaNameEn": "Second Floor Tawaf",
-      "avgStatus": 1.771,
-      "avgMinutes": 71.73,
+      "avgStatus": 1.75,
+      "avgMinutes": 71.18,
       "availabilityPct": 100.0,
-      "samples": 153
+      "samples": 152
     },
     {
       "areaNameEn": "Ground Floor Sa'i",
       "avgStatus": 2.0,
       "avgMinutes": 50.0,
       "availabilityPct": 100.0,
-      "samples": 153
+      "samples": 152
     },
     {
       "areaNameEn": "Roof Tawaf",
-      "avgStatus": 2.059,
-      "avgMinutes": 59.49,
-      "availabilityPct": 69.93,
-      "samples": 153
+      "avgStatus": 2.053,
+      "avgMinutes": 59.15,
+      "availabilityPct": 69.74,
+      "samples": 152
     },
     {
       "areaNameEn": "Mataf Ground Floor (Around Kaaba)",
-      "avgStatus": 2.353,
-      "avgMinutes": 50.39,
+      "avgStatus": 2.349,
+      "avgMinutes": 50.33,
       "availabilityPct": 100.0,
-      "samples": 153
+      "samples": 152
     },
     {
       "areaNameEn": "Second Floor Sa'i",
-      "avgStatus": 3.392,
+      "avgStatus": 3.428,
       "avgMinutes": 30.0,
-      "availabilityPct": 20.26,
-      "samples": 153
+      "availabilityPct": 19.08,
+      "samples": 152
     }
   ]
 }
