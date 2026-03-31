@@ -91,8 +91,8 @@
     },
     {
       "areaNameEn": "Second Floor Tawaf",
-      "avgStatus": 1.892,
-      "avgMinutes": 74.56,
+      "avgStatus": 1.891,
+      "avgMinutes": 74.53,
       "availabilityPct": 100.0,
       "samples": 687
     },
@@ -105,16 +105,16 @@
     },
     {
       "areaNameEn": "Ground Floor Sa'i",
-      "avgStatus": 2.18,
-      "avgMinutes": 51.8,
+      "avgStatus": 2.179,
+      "avgMinutes": 51.79,
       "availabilityPct": 100.0,
       "samples": 687
     },
     {
       "areaNameEn": "Second Floor Sa'i",
-      "avgStatus": 2.211,
-      "avgMinutes": 34.4,
-      "availabilityPct": 69.72,
+      "avgStatus": 2.215,
+      "avgMinutes": 34.41,
+      "availabilityPct": 69.58,
       "samples": 687
     },
     {
