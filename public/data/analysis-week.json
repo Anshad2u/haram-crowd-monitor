@@ -9,8 +9,8 @@
     },
     {
       "hour": 4,
-      "avgStatus": 1.333,
-      "avgMinutes": 48.33,
+      "avgStatus": 1.361,
+      "avgMinutes": 48.61,
       "samples": 36
     },
     {
@@ -77,8 +77,8 @@
   "areaRank": [
     {
       "areaNameEn": "First Floor Sa'i",
-      "avgStatus": 1.169,
-      "avgMinutes": 31.69,
+      "avgStatus": 1.175,
+      "avgMinutes": 31.75,
       "availabilityPct": 100.0,
       "samples": 154
     },
