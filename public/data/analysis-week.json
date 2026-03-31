@@ -20,12 +20,6 @@
       "samples": 36
     },
     {
-      "hour": 7,
-      "avgStatus": 1.39,
-      "avgMinutes": 50.0,
-      "samples": 41
-    },
-    {
       "hour": 8,
       "avgStatus": 1.39,
       "avgMinutes": 50.0,
@@ -36,6 +30,12 @@
       "avgStatus": 1.432,
       "avgMinutes": 49.05,
       "samples": 37
+    },
+    {
+      "hour": 7,
+      "avgStatus": 1.439,
+      "avgMinutes": 50.98,
+      "samples": 41
     },
     {
       "hour": 0,
@@ -91,8 +91,8 @@
     },
     {
       "areaNameEn": "Second Floor Tawaf",
-      "avgStatus": 1.513,
-      "avgMinutes": 65.39,
+      "avgStatus": 1.519,
+      "avgMinutes": 65.52,
       "availabilityPct": 100.0,
       "samples": 154
     },
@@ -112,8 +112,8 @@
     },
     {
       "areaNameEn": "Roof Tawaf",
-      "avgStatus": 2.227,
-      "avgMinutes": 59.29,
+      "avgStatus": 2.234,
+      "avgMinutes": 59.49,
       "availabilityPct": 63.64,
       "samples": 154
     },
