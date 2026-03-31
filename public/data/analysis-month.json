@@ -3,9 +3,9 @@
   "bestHours": [
     {
       "hour": 3,
-      "avgStatus": 1.725,
-      "avgMinutes": 52.54,
-      "samples": 189
+      "avgStatus": 1.718,
+      "avgMinutes": 52.53,
+      "samples": 188
     },
     {
       "hour": 23,
@@ -105,9 +105,9 @@
     },
     {
       "areaNameEn": "Second Floor Sa'i",
-      "avgStatus": 2.175,
-      "avgMinutes": 34.36,
-      "availabilityPct": 71.03,
+      "avgStatus": 2.178,
+      "avgMinutes": 34.35,
+      "availabilityPct": 70.89,
       "samples": 687
     },
     {
@@ -119,8 +119,8 @@
     },
     {
       "areaNameEn": "Mataf Ground Floor (Around Kaaba)",
-      "avgStatus": 2.656,
-      "avgMinutes": 54.87,
+      "avgStatus": 2.655,
+      "avgMinutes": 54.85,
       "availabilityPct": 100.0,
       "samples": 687
     }
