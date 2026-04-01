@@ -38,7 +38,7 @@
       "samples": 35
     },
     {
-      "hour": 23,
+      "hour": 0,
       "avgStatus": 1.429,
       "avgMinutes": 50.0,
       "samples": 42
@@ -48,12 +48,6 @@
       "avgStatus": 1.438,
       "avgMinutes": 48.75,
       "samples": 32
-    },
-    {
-      "hour": 0,
-      "avgStatus": 1.444,
-      "avgMinutes": 50.28,
-      "samples": 36
     },
     {
       "hour": 1,
@@ -69,6 +63,12 @@
     },
     {
       "hour": 22,
+      "avgStatus": 1.444,
+      "avgMinutes": 50.28,
+      "samples": 36
+    },
+    {
+      "hour": 23,
       "avgStatus": 1.444,
       "avgMinutes": 50.28,
       "samples": 36
