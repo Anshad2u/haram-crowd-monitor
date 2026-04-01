@@ -20,6 +20,12 @@
       "samples": 187
     },
     {
+      "hour": 4,
+      "avgStatus": 1.759,
+      "avgMinutes": 53.34,
+      "samples": 187
+    },
+    {
       "hour": 0,
       "avgStatus": 1.762,
       "avgMinutes": 53.68,
@@ -36,12 +42,6 @@
       "avgStatus": 1.77,
       "avgMinutes": 53.91,
       "samples": 187
-    },
-    {
-      "hour": 4,
-      "avgStatus": 1.777,
-      "avgMinutes": 53.44,
-      "samples": 188
     },
     {
       "hour": 16,
@@ -84,8 +84,8 @@
     },
     {
       "areaNameEn": "First Floor Sa'i",
-      "avgStatus": 1.743,
-      "avgMinutes": 37.51,
+      "avgStatus": 1.741,
+      "avgMinutes": 37.5,
       "availabilityPct": 100.0,
       "samples": 688
     },
@@ -105,16 +105,16 @@
     },
     {
       "areaNameEn": "Ground Floor Sa'i",
-      "avgStatus": 2.172,
-      "avgMinutes": 51.72,
+      "avgStatus": 2.17,
+      "avgMinutes": 51.7,
       "availabilityPct": 100.0,
       "samples": 688
     },
     {
       "areaNameEn": "Second Floor Sa'i",
-      "avgStatus": 2.276,
-      "avgMinutes": 34.5,
-      "availabilityPct": 67.44,
+      "avgStatus": 2.278,
+      "avgMinutes": 34.46,
+      "availabilityPct": 67.3,
       "samples": 688
     },
     {
