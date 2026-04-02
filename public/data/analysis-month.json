@@ -77,8 +77,8 @@
   "areaRank": [
     {
       "areaNameEn": "First Floor Tawaf",
-      "avgStatus": 1.635,
-      "avgMinutes": 69.74,
+      "avgStatus": 1.634,
+      "avgMinutes": 69.71,
       "availabilityPct": 100.0,
       "samples": 688
     },
@@ -112,9 +112,9 @@
     },
     {
       "areaNameEn": "Second Floor Sa'i",
-      "avgStatus": 2.404,
-      "avgMinutes": 34.52,
-      "availabilityPct": 62.5,
+      "avgStatus": 2.408,
+      "avgMinutes": 34.53,
+      "availabilityPct": 62.35,
       "samples": 688
     },
     {
