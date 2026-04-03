@@ -91,8 +91,8 @@
     },
     {
       "areaNameEn": "Second Floor Tawaf",
-      "avgStatus": 1.434,
-      "avgMinutes": 63.69,
+      "avgStatus": 1.428,
+      "avgMinutes": 63.55,
       "availabilityPct": 100.0,
       "samples": 145
     },
@@ -105,8 +105,8 @@
     },
     {
       "areaNameEn": "Mataf Ground Floor (Around Kaaba)",
-      "avgStatus": 2.179,
-      "avgMinutes": 47.69,
+      "avgStatus": 2.186,
+      "avgMinutes": 47.79,
       "availabilityPct": 100.0,
       "samples": 145
     },
