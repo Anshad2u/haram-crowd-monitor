@@ -44,6 +44,12 @@
       "samples": 36
     },
     {
+      "hour": 23,
+      "avgStatus": 1.444,
+      "avgMinutes": 50.42,
+      "samples": 36
+    },
+    {
       "hour": 0,
       "avgStatus": 1.472,
       "avgMinutes": 50.69,
@@ -57,12 +63,6 @@
     },
     {
       "hour": 2,
-      "avgStatus": 1.472,
-      "avgMinutes": 50.69,
-      "samples": 36
-    },
-    {
-      "hour": 23,
       "avgStatus": 1.472,
       "avgMinutes": 50.69,
       "samples": 36
@@ -98,8 +98,8 @@
     },
     {
       "areaNameEn": "Ground Floor Sa'i",
-      "avgStatus": 1.807,
-      "avgMinutes": 48.07,
+      "avgStatus": 1.8,
+      "avgMinutes": 48.0,
       "availabilityPct": 100.0,
       "samples": 145
     },
