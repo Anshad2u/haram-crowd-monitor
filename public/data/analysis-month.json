@@ -84,8 +84,8 @@
     },
     {
       "areaNameEn": "First Floor Sa'i",
-      "avgStatus": 1.67,
-      "avgMinutes": 36.79,
+      "avgStatus": 1.669,
+      "avgMinutes": 36.77,
       "availabilityPct": 100.0,
       "samples": 679
     },
@@ -105,16 +105,16 @@
     },
     {
       "areaNameEn": "Ground Floor Sa'i",
-      "avgStatus": 2.102,
-      "avgMinutes": 51.02,
+      "avgStatus": 2.099,
+      "avgMinutes": 50.99,
       "availabilityPct": 100.0,
       "samples": 679
     },
     {
       "areaNameEn": "Second Floor Sa'i",
-      "avgStatus": 2.541,
-      "avgMinutes": 34.72,
-      "availabilityPct": 57.58,
+      "avgStatus": 2.543,
+      "avgMinutes": 34.7,
+      "availabilityPct": 57.44,
       "samples": 679
     },
     {
