@@ -3,9 +3,9 @@
   "bestHours": [
     {
       "hour": 9,
-      "avgStatus": 1.27,
-      "avgMinutes": 46.62,
-      "samples": 37
+      "avgStatus": 1.281,
+      "avgMinutes": 46.88,
+      "samples": 32
     },
     {
       "hour": 8,
@@ -16,8 +16,8 @@
     {
       "hour": 10,
       "avgStatus": 1.333,
-      "avgMinutes": 46.33,
-      "samples": 30
+      "avgMinutes": 46.67,
+      "samples": 36
     },
     {
       "hour": 3,
@@ -98,8 +98,8 @@
     },
     {
       "areaNameEn": "Ground Floor Sa'i",
-      "avgStatus": 1.808,
-      "avgMinutes": 48.08,
+      "avgStatus": 1.815,
+      "avgMinutes": 48.15,
       "availabilityPct": 100.0,
       "samples": 146
     },
@@ -112,9 +112,9 @@
     },
     {
       "areaNameEn": "Roof Tawaf",
-      "avgStatus": 2.301,
-      "avgMinutes": 57.99,
-      "availabilityPct": 59.59,
+      "avgStatus": 2.281,
+      "avgMinutes": 57.95,
+      "availabilityPct": 60.27,
       "samples": 146
     },
     {
